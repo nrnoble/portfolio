@@ -118,11 +118,11 @@
 				<!--Changed by Kandis on 2/29-->
 				<!--<a href="index.php" class= "kfb_logo"><img style="display: inline;" id="logo_img" src="images/kfb_logo15-dropshadow5.png" class= "kfb_logo" alt="KFB logo"></a>-->
 				<div class="column-left">
-					<img style="display: inline;" id="logo_img" src="kfb_images/kfb_logo_higher_res2.png" class= "kfb_logo" alt="KFB logo" onclick="showpopup()">
+<!--					<img style="display: inline;" id="logo_img" src="kfb_images/kfb_logo_higher_res2.png" class= "kfb_logo" alt="KFB logo" onclick="showpopup()">-->
 				</div>
 				<div class="column-center">
-					<br><h1 style="display: inline;" class = "kfb_title">Kent Food bank & Emergency Services</h1>
-					<br><h4 style="display: inline;" class = "kfb_title">Serving low-income residents of the Kent School District</h4>  <!-- moved by Kandis 2/29 -->
+					<br><h1 style="display: inline;" class = "kfb_title">Neal Noble</h1>
+
 				</div>
 			</div>
 			<!-- <h1 class = "kfb_title">Kent Food bank & Emergency Services</h1> -->
@@ -560,7 +560,7 @@
 											</li>
 											<!-- mega-menu start -->
 											<li class="kfb_menubar-button" style="">
-												<a href = "kfb_donations.php" class="button">Donations</a>
+												<a href = "kfb_donations.php" class="button">Contact</a>
 												<!-- neal
                                                 <ul class="dropdown-menu">
                                                     <li>
@@ -610,7 +610,7 @@
 											<!-- mega-menu end -->
 
 											<li class="kfb_menubar-button">
-												<a href = "kfb_volunteer.php" class="button"  >Volunteer</a>
+												<a href = "kfb_volunteer.php" class="button"  >Login</a>
 												<!--	<a href="kfb_volunteer.php" style="color:black; background-color:#2d862d" data-toggle="dropdown">Volunteer</a>-->
 												<!--
                                                 <ul class="dropdown-menu">

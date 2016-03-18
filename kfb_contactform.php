@@ -57,9 +57,10 @@ $missing = [];
 							<form role="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="post" >
 							  <div class="col-md-9">
 					  
-								<div class="well well-sm"><strong style = "color: blue">
+								<div class="well well-sm">
+                                    <strong style = "color: blue">
 										<i class="glyphicon;"></i>
-										Contact The Kent Food Bank</strong>
+										Contact Neal Noble</strong>
 								</div>
 							  
 								<div class="form-group">
@@ -179,7 +180,7 @@ $missing = [];
 						<!-- sidebar start -->
 						<!-- ================ -->
 						    
-								<?php include "kfb_sidebar_contactform.php" ?>
+								<?php# include "kfb_sidebar_contactform.php" ?>
 							
 						<!-- sidebar end -->
 
