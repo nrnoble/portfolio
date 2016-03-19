@@ -36,6 +36,6 @@
          });
      </script>
 
-     <?php include "kfb_footer.html" ?>
+     <?php # include "kfb_footer.html" ?>
    </body>
 </html>

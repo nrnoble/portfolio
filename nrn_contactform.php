@@ -37,7 +37,16 @@ $missing = [];
 <?php include "nrn_head.php" ?>
 
 
-<?php include "thankyou_dialog.php";
+
+
+
+
+
+
+<body class="no-trans kfb_background">
+
+
+<?php #include "thankyou_dialog.php";
 
 if ($mailSent)
 {
@@ -49,12 +58,6 @@ if ($mailSent)
 
 
 
-
-
-
-<body class="no-trans kfb_background">
-
-	
 <?php include "nrn_menubar.php" ?>
 
 <?php include "nrn_login_dialog.php" ?>
@@ -84,7 +87,7 @@ if ($mailSent)
 						  
 						  
 						  
-							<form role="form" action="<?= $_SERVER['PHP_SELF']; ?>" method="post" >
+							<form action="<?= $_SERVER['PHP_SELF']; ?>" method="post" >
 							  <div class="col-md-9">
 					  
 								<div class="well well-sm">
@@ -94,19 +97,22 @@ if ($mailSent)
 								</div>
 							  
 								<div class="form-group">
-								  <label for="InputName">Your Name</label>
+<!--								  <label for="InputName">Your Name</label>-->
+                                    <label>Your Name</label>
 								  <div class="input-group">
 									<input type="text" class="form-control" name="name" id="name" placeholder="Enter Name" required>
 									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
 								</div>
 								<div class="form-group">
-								  <label for="InputEmail">Your Email</label>
+<!--								  <label for="InputEmail">Your Email</label>-->
+                                    <label>Your Email</label>
 								  <div class="input-group">
 									<input type="email" class="form-control" id="email" name="email" placeholder="Enter Email" required  >
 									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
 								</div>
 								<div class="form-group">
-								  <label for="InputMessage">Message</label>
+<!--								  <label for="InputMessage">Message</label>-->
+								  <label>Message</label>
 								  <div class="input-group">
 									<textarea name="comments" id="InputMessage" class="form-control" rows="5" required></textarea>
 									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
@@ -136,70 +142,7 @@ if ($mailSent)
 							
 						</div> 
 						
-						
-						<div id = pageblock2 class = "pageblock" style="visibility: hidden" >
-						<div id =kfb_contactform class = "contactform">
 
-                    <h1>Contact The Kent Food Bank</h1>
-                    <?php if ($_POST && ($suspect || isset($errors['mailfail']))) : ?>
-                    <p class="warning">Sorry, your mail couldn't be sent.</p>
-                    <?php elseif ($errors || $missing) : ?>
-                    <p class="warning">Please fix the item(s) indicated</p>
-                    <?php endif; ?>
-                    <form method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
-                      <p>
-                        <label for="name" \>Name:
-                        <?php if ($missing && in_array('name', $missing)) : ?>
-                            <span class="warning">Please enter your name</span>
-                        <?php endif; ?>
-                        </label>
-                        <input type="text" name="name" id="name" value="Neal Noble"
-                            <?php
-                            if ($errors || $missing) {
-                                echo 'value="' . htmlentities($name) . '"';
-                            }
-                            ?>
-                            >
-                      </p>
-                      <p>
-                        <label for="email">Email:
-                            <?php if ($missing && in_array('email', $missing)) : ?>
-                                <span class="warning">Please enter your email address</span>
-                            <?php elseif (isset($errors['email'])) : ?>
-                                <span class="warning">Invalid email address</span>
-                            <?php endif; ?>
-                        </label>
-                        <input type="email" name="email" id="email" value="nrnoble@hotmail.com"
-                            <?php
-                            if ($errors || $missing) {
-                                echo 'value="' . htmlentities($email) . '"';
-                            }
-                            ?>
-                            >
-                      </p>
-                      <p>
-                        <label for="comments" >Comments:
-                            <?php if ($missing && in_array('comments', $missing)) : ?>
-                                <span class="warning">You forgot to add any comments</span>
-                            <?php endif; ?>
-                        </label>
-                          <textarea name="comments" id="comments"><?php
-                              if ($errors || $missing) {
-                                  echo htmlentities($comments);
-                              }
-                              
-                              ?>comments go here</textarea>
-                      </p>
-                      <p>
-                        <input type="submit" name="senddd" id="sendasd" value="Send Comments">
-                      </p>
-                    </form>
-                </div>	
-						</div>
-						
-
-							
-				
 						
 					
 						</div>
@@ -225,7 +168,7 @@ if ($mailSent)
 			
 		</div>
 		<!-- page-wrapper end -->
-		</div>
+
  			<!-- sidebar start -->
 
 

@@ -35,7 +35,7 @@
 </script>
 
 
-<div id="loginform" title="Administrative Login" style="display: none" class = "kfb_login_dialoga">
+<div id="loginform" title="Administrative Login" style="display: none" class = "nrn_login_dialog">
     <center>
 
 

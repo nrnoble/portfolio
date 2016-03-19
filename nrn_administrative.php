@@ -37,8 +37,9 @@ else
 
 	$test = "login false";
 
-	echo "<script>alert('$test')</script>";
+
 	header('Location: index.php');
+	echo "<script>alert('$test')</script>";
 }
 
 ?><?php include "nrn_head.php" ?>

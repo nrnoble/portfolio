@@ -17,8 +17,9 @@ if ($id == 'admin' && $pass1 == '@dm1n')
    $test = $_SESSION['access'];
    $test = "foo1";
 
+
    //echo "<script>alert('$test')</script>";
-   header("Location: kfb_administrative.php");
+   header("Location: nrn_administrative.php");
 }
 else
 {

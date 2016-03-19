@@ -61,7 +61,7 @@
 							<!-- <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">  -->
 							<hr class="visible-xs">
 
-							<img src="neal_noble_75.png">
+							<img src="neal_noble_75.png" alt="Neal Noble">
 
 
 						</div>
@@ -71,7 +71,7 @@
 
 
 					<div id = "my_background" class="pageblock">
-						<div id="header-3">
+						<div id="header-45">
 							<h2 class="space-top">Background</h2>
 							<div class="separator-2"></div>
 
@@ -130,7 +130,7 @@
 
 
 		</div>
-
+</div>
 
 	</section>
 	<!-- main-container end -->

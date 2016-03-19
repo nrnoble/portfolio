@@ -35,12 +35,12 @@
 </script>
 
 
-<div id="thank_you" title="Thank You" style="display: none" class = "kfb_login_dialog">
-    <center>
+<div id="thank_you" title="Thank You" style="display: none; text-align: center" class = "kfb_login_dialog">
+
 
 
       <h1> Thanks for taking the time to contact Neal</h1>
 
 
-    </center>
+
 </div>

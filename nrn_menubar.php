@@ -381,7 +381,10 @@
                                                 neal -->
 											</li>
 											<!-- mega-menu end -->
-											<!-- mega-menu start -->
+
+
+
+											<!-- Professional Skills Menu Itesm -->
 											<li class="kfb_menubar-button">
 												<a href="nrn_resume.php" class="button">Professional Skills</a>
 												<!-- Neal
@@ -449,9 +452,19 @@
                                                 </ul>
                                                 neal -->
 											</li>
-											<!-- mega-menu end -->
+
+
+                                            <!-- College Projects Menu Item -->
+                                            <li class="kfb_menubar-button" style="">
+                                                <a href = "http://nnoble.greenrivertech.net/IT305" class="button" target="_blank">College Projects</a>
+
+                                            </li>
+
+
+
+                                            <!-- Linkedin Menu Item-->
 											<li class="kfb_menubar-button" style="">
-												<a class="button" href=https://www.linkedin.com/home?trk=nav_responsive_tab_home" style="display: " target="_blank">LinkedIn</a>
+												<a class="button" href="https://www.linkedin.com/in/neal-r-noble-51321412" style="display: " target="_blank">LinkedIn</a>
 												<!-- neal
                                                 <ul class="dropdown-menu">
                                                     <li class="dropdown ">
@@ -546,7 +559,9 @@
                                                 </ul>
                                             neal -->
 											</li>
-											<!-- mega-menu start -->
+
+
+											<!-- Github Menu Item -->
 											<li class="kfb_menubar-button" style="">
 												<a href = "https://github.com/nrnoble" class="button" target="_blank">GitHub</a>
 												<!-- neal
@@ -595,58 +610,17 @@
                                             neal -->
 											</li>
 
-                                            <!-- mega-menu start -->
+
+
+                                            <!-- contact form menu item -->
                                             <li class="kfb_menubar-button" style="">
                                                 <a href = "nrn_contactform.php" class="button">Contact</a>
-                                                <!-- neal
-                                                <ul class="dropdown-menu">
-                                                    <li>
-                                                        <div class="row">
-                                                            <div class="col-md-12">
-                                                                <h4 class="title"><i class="fa fa-magic pr-10"></i> Donate</h4>
-                                                                <div class="row">
-                                                                    <div class="col-sm-6">
-                                                                        <div class="divider"></div>
-                                                                        <ul class="menu">
-                                                                            <li ><a href="components-social-icons.html"><i class="icon-share pr-10"></i>Social Icons</a></li>
-                                                                            <li ><a href="components-buttons.html"><i class="icon-flask pr-10"></i>Buttons</a></li>
-                                                                            <li ><a href="components-forms.html"><i class="icon-eq pr-10"></i>Forms</a></li>
-                                                                            <li ><a href="components-tabs-and-pills.html"><i class=" icon-dot-3 pr-10"></i>Tabs &amp; Pills</a></li>
-                                                                            <li ><a href="components-accordions.html"><i class="icon-menu-outline pr-10"></i>Accordions</a></li>
-                                                                            <li ><a href="components-progress-bars.html"><i class="icon-chart-line pr-10"></i>Progress Bars</a></li>
-                                                                            <li ><a href="components-call-to-action.html"><i class="icon-chat pr-10"></i>Call to Action Blocks</a></li>
-                                                                            <li ><a href="components-alerts-and-callouts.html"><i class="icon-info-circled pr-10"></i>Alerts &amp; Callouts</a></li>
-                                                                            <li ><a href="components-content-sliders.html"><i class="icon-star-filled pr-10"></i>Content Sliders</a></li>
-                                                                            <li ><a href="components-charts.html"><i class="icon-chart-pie pr-10"></i>Charts</a></li>
-                                                                            <li ><a href="components-page-loaders.html"><i class="fa fa-circle-o-notch fa-spin"></i>Page Loaders <span class="badge">New</span></a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                    <div class="col-sm-6">
-                                                                        <div class="divider"></div>
-                                                                        <ul class="menu">
-                                                                            <li ><a href="components-icon-boxes.html"><i class="icon-picture-outline pr-10"></i>Icon Boxes</a></li>
-                                                                            <li ><a href="components-image-boxes.html"><i class="icon-camera-1 pr-10"></i>Image Boxes</a></li>
-                                                                            <li ><a href="components-fullwidth-sections.html"><i class="icon-code-1 pr-10"></i>Full Width Sections</a></li>
-                                                                            <li ><a href="components-animations.html"><i class="icon-docs pr-10"></i>Animations</a></li>
-                                                                            <li ><a href="components-video-and-audio.html"><i class="icon-video pr-10"></i>Video &amp; Audio</a></li>
-                                                                            <li ><a href="components-lightbox.html"><i class="icon-plus pr-10"></i>Lightbox</a></li>
-                                                                            <li ><a href="components-counters.html"><i class="icon-sort-numeric pr-10"></i>Counters</a></li>
-                                                                            <li ><a href="components-modals.html"><i class="icon-popup pr-10"></i>Modals</a></li>
-                                                                            <li ><a href="components-tables.html"><i class="icon-th pr-10"></i>Tables</a></li>
-                                                                            <li ><a href="components-text-rotators.html"><i class="icon-arrows-ccw pr-10"></i>Text Rotators</a></li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            neal -->
+
                                             </li>
 
 
 
-                                            <!-- mega-menu end -->
+                                            <!-- Contact list menu item -->
 
 											<li class="kfb_menubar-button">
 												<a class="button"  onclick="showpopup()">Login</a>
@@ -704,24 +678,32 @@
                                             -->
 											<li class="kfb_menubar-button">
 												<a href="nrn_administrative.php" class="button" style="display:<?php echo $admin_display ?>">Contact List (admin)</a>
-												<!--														<ul class="dropdown-menu">
-                                                                                                            <li ><a href="index-shop.html">Shop Home 1</a></li>
-                                                                                                            <li ><a href="index-shop-2.html">Shop Home 2</a></li>
-                                                                                                            <li ><a href="shop-listing-4col.html">Grid - 4 Columns</a></li>
-                                                                                                            <li ><a href="shop-listing-3col.html">Grid - 3 Columns</a></li>
-                                                                                                            <li ><a href="shop-listing-2col.html">Grid - 2 Columns</a></li>
-                                                                                                            <li ><a href="shop-listing-sidebar.html">Grid - With Sidebar</a></li>
-                                                                                                            <li ><a href="shop-listing-list.html">List</a></li>
-                                                                                                            <li ><a href="shop-product.html">Product</a></li>
-                                                                                                            <li ><a href="shop-cart.html">Shopping Cart</a></li>
-                                                                                                            <li ><a href="shop-checkout.html">Checkout Page - Step 1</a></li>
-                                                                                                            <li ><a href="shop-checkout-payment.html">Checkout Page - Step 2</a></li>
-                                                                                                            <li ><a href="shop-checkout-review.html">Checkout Page - Step 3</a></li>
-                                                                                                            <li ><a href="shop-invoice.html">Invoice</a></li>
-                                                                                                        </ul>-->
-
 
 											</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 											<!--
                                             <li class="dropdown ">
@@ -849,12 +831,12 @@
 </div>
 
 
-<div id="dialog" title="Administraive Login" style="display: none" class="pageblock text-align: center">
-
-    <form id = "Loginform" method = "post" action = "nrn_dologin.php" >
-        <input type = "text" id = "login" placeholder = "" name = "uid">
-        <input type = "password" id = "password" name = "upass" placeholder = "***">
-        <input type = "submit" id = "dologin" value = "Login">
-    </form>
-
-</div>
+<!--<div id="dialog" title="Administraive Login" style="display: none" class="pageblock text-align: center">-->
+<!---->
+<!--    <form id = "Loginform" method = "post" action = "nrn_dologin.php" >-->
+<!--        <input type = "text" id = "login" placeholder = "" name = "uid">-->
+<!--        <input type = "password" id = "password" name = "upass" placeholder = "***">-->
+<!--        <input type = "submit" id = "dologin" value = "Login">-->
+<!--    </form>-->
+<!---->
+<!--</div>-->

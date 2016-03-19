@@ -35,11 +35,11 @@
 </script>
 
 
-<div id="loginform" title="Administrative Login" style="display: none" class = "nrn_login_dialog">
-    <center>
+<div id="loginform" title="Administrative Login" style="display: none;" class = "nrn_login_dialog">
 
 
-        <form id = "Loginform1" method = "post" action = "nrn_dologin.php">
+
+        <form id = "Loginform1" method = "post" action = "nrn_dologin.php" style="text-align: center">
             User and Password
             <input type = "text" id = "login" placeholder = "" name = "uid"><br>
             <input type = "password" id = "password" name = "password" placeholder = "">
@@ -47,5 +47,5 @@
         </form>
 
 
-    </center>
+
 </div>
