@@ -3,8 +3,10 @@
 
 <body class="no-trans kfb_background">
 
-	
 <?php include "nrn_menubar.php" ?>
+
+<?php include "kfb_login_dialog.php" ?>
+
 
  <div class="page-wrapper" >
 

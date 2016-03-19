@@ -34,7 +34,7 @@ if (isset($_POST['send']))
 $missing = [];
 }
 ?>
-<?php include "kfb_head.php" ?>
+<?php include "nrn_head.php" ?>
 
 
 <?php include "thankyou_dialog.php";
@@ -55,9 +55,9 @@ if ($mailSent)
 <body class="no-trans kfb_background">
 
 	
-<?php include "kfb_menubar.php" ?>
+<?php include "nrn_menubar.php" ?>
 
-
+<?php include "nrn_login_dialog.php" ?>
 
  <div class="page-wrapper" >
 
@@ -229,6 +229,6 @@ if ($mailSent)
  			<!-- sidebar start -->
 
 
-<?php include "kfb_footer.html" ?>
+<?php #include "kfb_footer.html" ?>
 </body>
 </html>

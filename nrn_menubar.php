@@ -9,10 +9,6 @@
 
 ?>
 
-
-
-
-
 <!--	<div id="msgid">-->
 
 
@@ -387,7 +383,7 @@
 											<!-- mega-menu end -->
 											<!-- mega-menu start -->
 											<li class="kfb_menubar-button">
-												<a href="kfb_about.php" class="button">About</a>
+												<a href="nrn_resume.php" class="button">Professional Skills</a>
 												<!-- Neal
                                                 <ul class="dropdown-menu">
 
@@ -601,7 +597,7 @@
 
                                             <!-- mega-menu start -->
                                             <li class="kfb_menubar-button" style="">
-                                                <a href = "kfb_contactform.php" class="button">Contact</a>
+                                                <a href = "nrn_contactform.php" class="button">Contact</a>
                                                 <!-- neal
                                                 <ul class="dropdown-menu">
                                                     <li>
@@ -707,7 +703,7 @@
                                             </li>
                                             -->
 											<li class="kfb_menubar-button">
-												<a href="kfb_administrative.php" class="button" style="display:<?php echo $admin_display ?>">Contact List (admin)</a>
+												<a href="nrn_administrative.php" class="button" style="display:<?php echo $admin_display ?>">Contact List (admin)</a>
 												<!--														<ul class="dropdown-menu">
                                                                                                             <li ><a href="index-shop.html">Shop Home 1</a></li>
                                                                                                             <li ><a href="index-shop-2.html">Shop Home 2</a></li>
@@ -855,7 +851,7 @@
 
 <div id="dialog" title="Administraive Login" style="display: none" class="pageblock text-align: center">
 
-    <form id = "Loginform" method = "post" action = "kfb_dologin.php" >
+    <form id = "Loginform" method = "post" action = "nrn_dologin.php" >
         <input type = "text" id = "login" placeholder = "" name = "uid">
         <input type = "password" id = "password" name = "upass" placeholder = "***">
         <input type = "submit" id = "dologin" value = "Login">

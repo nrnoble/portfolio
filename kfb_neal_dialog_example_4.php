@@ -27,7 +27,7 @@
         <center>
 
 
-            <form id = "Loginform" method = "post" action = "kfb_dologin.php" >
+            <form id = "Loginform" method = "post" action = "nrn_dologin.php" >
                 <input type = "text" id = "login" placeholder = "" name = "uid">
                 <input type = "password" id = "password" name = "upass" placeholder = "***">
                 <input type = "submit" id = "dologin" value = "Login">

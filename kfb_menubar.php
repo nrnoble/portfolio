@@ -601,7 +601,7 @@
 
                                             <!-- mega-menu start -->
                                             <li class="kfb_menubar-button" style="">
-                                                <a href = "kfb_contactform.php" class="button">Contact</a>
+                                                <a href = "nrn.php" class="button">Contact</a>
                                                 <!-- neal
                                                 <ul class="dropdown-menu">
                                                     <li>
@@ -855,7 +855,7 @@
 
 <div id="dialog" title="Administraive Login" style="display: none" class="pageblock text-align: center">
 
-    <form id = "Loginform" method = "post" action = "kfb_dologin.php" >
+    <form id = "Loginform" method = "post" action = "nrn_dologin.php" >
         <input type = "text" id = "login" placeholder = "" name = "uid">
         <input type = "password" id = "password" name = "upass" placeholder = "***">
         <input type = "submit" id = "dologin" value = "Login">

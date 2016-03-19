@@ -110,7 +110,7 @@
 </head>
 
 
-<?php include "kfb_login_dialog.php" ?>
+
 
 
 		

@@ -1,6 +1,8 @@
-<?php include "kfb_head.php";?>
+<?php include "nrn_head.php";?>
 
 <body class="no-trans  kfb_background">
+
+<?php include "nrn_login_dialog.php" ?>
 
 <div id="fb-root">
 </div>
@@ -18,7 +20,7 @@
 </script>
 
 
-<?php include "kfb_menubar.php" ?>
+<?php include "nrn_menubar.php" ?>
 
 <div class="page-wrapper" >
 
@@ -49,16 +51,39 @@
 
 
 
+					<div id = "about_neal" class="pageblock">
+						<div id="header-3">
 
-					<div id = "aboutus" class="pageblock">
+
+							<h2 class="space-top">Neal Noble</h2>
+							<div class="separator-2"></div>
+
+							<!-- <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">  -->
+							<hr class="visible-xs">
+
+							<img src="neal_noble_75.png">
+
+
+						</div>
+					</div>
+
+
+
+
+					<div id = "my_background" class="pageblock">
 						<div id="header-3">
 							<h2 class="space-top">Background</h2>
 							<div class="separator-2"></div>
-							<h3> Description</h3>
+
 							<!-- <img class="img-responsive img-border img-left" src="img/intro-pic.jpg" alt="">  -->
 							<hr class="visible-xs">
-<!--							<p>The Kent Food Bank and Emergency Services is a non-profit organization offering food, clothing and emergency financial assistance to low income families and individuals living within the Kent School District.  The Kent Food Bank service area covers 73 square miles with 40 schools. Kent Food Bank operates two food distribution locations in Kent each week.</p>-->
-<!--							<span class ="moreinfo" ><a href="">More About US ...</a></span>-->
+
+							<p>12 years of testing for Microsoft. Shipping SMS 2.0, BackOffice 4.5, Exchange SDK,
+								Exchange 2000 OWA, Exchange 2003 OWA. Responsible for testing high profile features
+								and pushing for quality in all test areas. Independently developed automation tools to
+								eliminate redundant manual tasks and testing. Over 5 years working outside of Microsoft
+								with corporate customers solving desktop software\hardware\networking problems. A
+								passion for software and the software development process. </p>
 
 						</div>
 					</div>
@@ -73,7 +98,7 @@
 					<div id="header-9">
 						<h2 class="space-top">Contact</h2>
 						<div class="separator-2"></div>
-						<a href="kfb_contactform.php">Contact</a>
+						<a href="nrn.php">Contact</a>
 					</div>
 				</div>
 

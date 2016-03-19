@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php include "nrn_head.php" ?>
 
 <body class="no-trans kfb_background">
@@ -22,20 +21,10 @@
 						<div class="main col-md-9">
 							
 						<div id = pageblock1 class = "pageblock">
-							<h2> Page Title Goes Here</h2>
+							<?php include "resume.htm"?>
 							
 						</div> 
-						
-						<div id = pageblock2 class = "pageblock">
-							<h2> Page content goes here</h2>
-							<h3> Page content goes here</h3>	
-						</div>
-						
-						<div id = pageblock3 class = "pageblock">
-							<h2> More Page content goes here</h2>
-							<h3> More Page content goes here</h3>
-							<h4> More Page content goes here</h4>
-		    			</div>
+
 
 							
 				</div>
