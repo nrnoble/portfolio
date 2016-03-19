@@ -1,4 +1,5 @@
 <?php
+session_start();
 if (isset($_POST['send']))
 {
 	//echo("<h2>sending email...</h2>"); 
@@ -8,26 +9,55 @@ if (isset($_POST['send']))
     $subject = 'Feedback from online form';
     $headers = [];
     $headers[] = 'From: kaneses@greenrivertech.net';
-    $headers[] = 'Cc: neal@nrnoble.com, nnoble@greenrivertech.net';
+    $headers[] = 'Cc: neal@nrnoble.com, nnoble2@greenrivertech.net';
     $headers[] = 'Content-type: text/plain; charset=utf-8';
      $authorized = '';
     require './kfb_includes/process_mail.php';
+
     if ($mailSent)
     {
-        header('Location: thanks.php');
+        //print_r($_POST);
+        $_SESSION['name'] = $_POST['name'];
+        $_SESSION['email'] = $_POST['email'];
+        $_SESSION['comments'] = $_POST['comments'];
+       // echo "<script>showpopup();</script>";
+        header('Location: nrn_contact_add.php');
+
+
+
         exit;
     }
-$errors = [];
+
+
+
+    $errors = [];
 $missing = [];
 }
 ?>
-<!DOCTYPE html>
 <?php include "kfb_head.php" ?>
+
+
+<?php include "thankyou_dialog.php";
+
+if ($mailSent)
+{
+    echo "<script>alert(\"Thank you\");</script>";
+    exit;
+}
+
+?>
+
+
+
+
+
 
 <body class="no-trans kfb_background">
 
 	
 <?php include "kfb_menubar.php" ?>
+
+
 
  <div class="page-wrapper" >
 

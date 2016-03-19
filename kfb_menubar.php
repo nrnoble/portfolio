@@ -10,14 +10,6 @@
 ?>
 
 
-<select id ="themeId" name ="kfb_themes" onmousedown="this.value='';" onchange="ChangeThemes(this.value);" style="display: none">
-	<!--<select name="size" id="size">-->
-	<option value="custom-1">Custom-1</option>
-	<option value="custom-2">Custom-2</option>
-	<option value="custom-3">Custom-3</option>
-	<option value="custom-4">Custom-4</option>
-	<option value="custom-5">Custom-5</option>
-</select>
 
 
 
@@ -118,10 +110,10 @@
 				<!--Changed by Kandis on 2/29-->
 				<!--<a href="index.php" class= "kfb_logo"><img style="display: inline;" id="logo_img" src="images/kfb_logo15-dropshadow5.png" class= "kfb_logo" alt="KFB logo"></a>-->
 				<div class="column-left">
-<!--					<img style="display: inline;" id="logo_img" src="kfb_images/kfb_logo_higher_res2.png" class= "kfb_logo" alt="KFB logo" onclick="showpopup()">-->
+                <!--<img style="display: inline;" id="logo_img" src="kfb_images/kfb_logo_higher_res2.png" class= "kfb_logo" alt="KFB logo" onclick="showpopup()">-->
 				</div>
 				<div class="column-center">
-					<br><h1 style="display: inline;" class = "kfb_title">Neal Noble</h1>
+					<br><h1 style="display: inline;" class = "kfb_titles">Neal Noble</h1>
 
 				</div>
 			</div>
@@ -196,7 +188,7 @@
 
 					<!-- header-top-second start -->
 					<!-- ================ -->
-					<div id="header-top-second" class="clearfix" style="color:orange !important;">
+					<div id="header-top-second" class="clearfix">
 
 						<!-- header top dropdowns start -->
 						<!-- ================ -->
@@ -463,7 +455,7 @@
 											</li>
 											<!-- mega-menu end -->
 											<li class="kfb_menubar-button" style="">
-												<a class="button" href="kfb_services.php">Services</a>
+												<a class="button" href=https://www.linkedin.com/home?trk=nav_responsive_tab_home" style="display: " target="_blank">LinkedIn</a>
 												<!-- neal
                                                 <ul class="dropdown-menu">
                                                     <li class="dropdown ">
@@ -560,7 +552,7 @@
 											</li>
 											<!-- mega-menu start -->
 											<li class="kfb_menubar-button" style="">
-												<a href = "kfb_donations.php" class="button">Contact</a>
+												<a href = "https://github.com/nrnoble" class="button" target="_blank">GitHub</a>
 												<!-- neal
                                                 <ul class="dropdown-menu">
                                                     <li>
@@ -607,10 +599,61 @@
                                             neal -->
 											</li>
 
-											<!-- mega-menu end -->
+                                            <!-- mega-menu start -->
+                                            <li class="kfb_menubar-button" style="">
+                                                <a href = "kfb_contactform.php" class="button">Contact</a>
+                                                <!-- neal
+                                                <ul class="dropdown-menu">
+                                                    <li>
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <h4 class="title"><i class="fa fa-magic pr-10"></i> Donate</h4>
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <div class="divider"></div>
+                                                                        <ul class="menu">
+                                                                            <li ><a href="components-social-icons.html"><i class="icon-share pr-10"></i>Social Icons</a></li>
+                                                                            <li ><a href="components-buttons.html"><i class="icon-flask pr-10"></i>Buttons</a></li>
+                                                                            <li ><a href="components-forms.html"><i class="icon-eq pr-10"></i>Forms</a></li>
+                                                                            <li ><a href="components-tabs-and-pills.html"><i class=" icon-dot-3 pr-10"></i>Tabs &amp; Pills</a></li>
+                                                                            <li ><a href="components-accordions.html"><i class="icon-menu-outline pr-10"></i>Accordions</a></li>
+                                                                            <li ><a href="components-progress-bars.html"><i class="icon-chart-line pr-10"></i>Progress Bars</a></li>
+                                                                            <li ><a href="components-call-to-action.html"><i class="icon-chat pr-10"></i>Call to Action Blocks</a></li>
+                                                                            <li ><a href="components-alerts-and-callouts.html"><i class="icon-info-circled pr-10"></i>Alerts &amp; Callouts</a></li>
+                                                                            <li ><a href="components-content-sliders.html"><i class="icon-star-filled pr-10"></i>Content Sliders</a></li>
+                                                                            <li ><a href="components-charts.html"><i class="icon-chart-pie pr-10"></i>Charts</a></li>
+                                                                            <li ><a href="components-page-loaders.html"><i class="fa fa-circle-o-notch fa-spin"></i>Page Loaders <span class="badge">New</span></a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="divider"></div>
+                                                                        <ul class="menu">
+                                                                            <li ><a href="components-icon-boxes.html"><i class="icon-picture-outline pr-10"></i>Icon Boxes</a></li>
+                                                                            <li ><a href="components-image-boxes.html"><i class="icon-camera-1 pr-10"></i>Image Boxes</a></li>
+                                                                            <li ><a href="components-fullwidth-sections.html"><i class="icon-code-1 pr-10"></i>Full Width Sections</a></li>
+                                                                            <li ><a href="components-animations.html"><i class="icon-docs pr-10"></i>Animations</a></li>
+                                                                            <li ><a href="components-video-and-audio.html"><i class="icon-video pr-10"></i>Video &amp; Audio</a></li>
+                                                                            <li ><a href="components-lightbox.html"><i class="icon-plus pr-10"></i>Lightbox</a></li>
+                                                                            <li ><a href="components-counters.html"><i class="icon-sort-numeric pr-10"></i>Counters</a></li>
+                                                                            <li ><a href="components-modals.html"><i class="icon-popup pr-10"></i>Modals</a></li>
+                                                                            <li ><a href="components-tables.html"><i class="icon-th pr-10"></i>Tables</a></li>
+                                                                            <li ><a href="components-text-rotators.html"><i class="icon-arrows-ccw pr-10"></i>Text Rotators</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            neal -->
+                                            </li>
+
+
+
+                                            <!-- mega-menu end -->
 
 											<li class="kfb_menubar-button">
-												<a href = "kfb_volunteer.php" class="button"  >Login</a>
+												<a class="button"  onclick="showpopup()">Login</a>
 												<!--	<a href="kfb_volunteer.php" style="color:black; background-color:#2d862d" data-toggle="dropdown">Volunteer</a>-->
 												<!--
                                                 <ul class="dropdown-menu">
@@ -664,7 +707,7 @@
                                             </li>
                                             -->
 											<li class="kfb_menubar-button">
-												<a href="kfb_administrative.php" class="button" style="display:<?php echo $admin_display ?>">Administrative</a>
+												<a href="kfb_administrative.php" class="button" style="display:<?php echo $admin_display ?>">Contact List (admin)</a>
 												<!--														<ul class="dropdown-menu">
                                                                                                             <li ><a href="index-shop.html">Shop Home 1</a></li>
                                                                                                             <li ><a href="index-shop-2.html">Shop Home 2</a></li>

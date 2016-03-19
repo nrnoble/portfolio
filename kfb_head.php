@@ -52,6 +52,8 @@
 		<link rel = "stylesheet" type="text/css" href="kfb_vbg.css">
 
 		<link rel="stylesheet" type="text/css" href="kfb_login_style_4.css">
+		<link rel="stylesheet" type="text/css" href="neal.css" >
+
 		<script type="text/javascript" src="kfb_login_effect.js"></script>
 	    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
@@ -64,10 +66,11 @@
 
 
 <script type="text/javascript">
-    //SetTheme("test.css");
+    SetTheme("neal.css");
     var debug = false;
     DebugAlert ("Header Script::: getCookie(\"Theme\")",false);
-    var Theme = getCookie("Theme");
+    var Theme = "neal.css";	
+	Theme = getCookie("Theme");
 	DebugAlert ("Header Script::: getCookie(" + Theme + ")",debug);
 
     
@@ -75,7 +78,7 @@
     if (typeof(Theme) == "undefined")
     {
         DebugAlert("Script:: No theme has been set",debug);
-        var ThemeFileName = "kfb_style.css";
+        var ThemeFileName = "neal.css";
 
         SetTheme(ThemeFileName);
         setCookie("Theme", ThemeFileName);

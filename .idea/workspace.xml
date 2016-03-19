@@ -2,10 +2,294 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c277d27c-7a67-4d1b-9376-8027c8c37068" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modal_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nrn_contact_add.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nrn_linkin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thankyou_dialog.php" />
+      <change type="DELETED" beforePath="E:\wamp64\www\portfolio\kfb_apply_form2.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\wamp64\www\portfolio\kfb_apply_form3.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\wamp64\www\portfolio\kfb_apply_form4.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\wamp64\www\portfolio\kfb_apply_form5.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\wamp64\www\portfolio\kfb_apply_form6.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\wamp64\www\portfolio\kfb_apply_form7.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\wamp64\www\portfolio\kfb_apply_form8.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\wamp64\www\portfolio\kfb_apply_form_tweak.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/charts/Chart.js" afterPath="$PROJECT_DIR$/plugins/charts/Chart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/charts/Chart.min.js" afterPath="$PROJECT_DIR$/plugins/charts/Chart.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontello/LICENSE.txt" afterPath="$PROJECT_DIR$/fonts/fontello/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/pace/LICENSE.txt" afterPath="$PROJECT_DIR$/plugins/pace/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontello/README.txt" afterPath="$PROJECT_DIR$/fonts/fontello/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/SmoothScroll.js" afterPath="$PROJECT_DIR$/plugins/SmoothScroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/animate.css" afterPath="$PROJECT_DIR$/css/animate.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontello/css/animation.css" afterPath="$PROJECT_DIR$/fonts/fontello/css/animation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/animations.css" afterPath="$PROJECT_DIR$/css/animations.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skins/blue.css" afterPath="$PROJECT_DIR$/css/skins/blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/bootstrap-notify/bootstrap-notify.js" afterPath="$PROJECT_DIR$/plugins/bootstrap-notify/bootstrap-notify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/bootstrap-notify/bootstrap-notify.min.js" afterPath="$PROJECT_DIR$/plugins/bootstrap-notify/bootstrap-notify.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/dist/css/bootstrap2/bootstrap-switch.css" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/dist/css/bootstrap2/bootstrap-switch.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/dist/css/bootstrap3/bootstrap-switch.css" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/dist/css/bootstrap3/bootstrap-switch.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/dist/js/bootstrap-switch.js" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/dist/js/bootstrap-switch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/test/bootstrap-switch.js" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/test/bootstrap-switch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/dist/css/bootstrap2/bootstrap-switch.min.css" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/dist/css/bootstrap2/bootstrap-switch.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/dist/css/bootstrap3/bootstrap-switch.min.css" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/dist/css/bootstrap3/bootstrap-switch.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/dist/js/bootstrap-switch.min.js" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/dist/js/bootstrap-switch.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/test/bootstrap-switch.tests.js" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/test/bootstrap-switch.tests.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/docs/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/docs/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/docs/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/docs/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skins/brown.css" afterPath="$PROJECT_DIR$/css/skins/brown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/coming.soon.config.js" afterPath="$PROJECT_DIR$/js/coming.soon.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skins/cool_green.css" afterPath="$PROJECT_DIR$/css/skins/cool_green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/countdownBasic.html" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/countdownBasic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="$PROJECT_DIR$/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skins/dark_cyan.css" afterPath="$PROJECT_DIR$/css/skins/dark_cyan.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skins/dark_red.css" afterPath="$PROJECT_DIR$/css/skins/dark_red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontello/demo.html" afterPath="$PROJECT_DIR$/fonts/fontello/demo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/documentation-2.html" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/documentation-2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/email-sender.php" afterPath="$PROJECT_DIR$/php/email-sender.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/events.html" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/events.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/examples.html" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/examples.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/fonts/font-awesome/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/fonts/font-awesome/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontello/css/fontello-codes.css" afterPath="$PROJECT_DIR$/fonts/fontello/css/fontello-codes.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontello/css/fontello-embedded.css" afterPath="$PROJECT_DIR$/fonts/fontello/css/fontello-embedded.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontello/css/fontello-ie7-codes.css" afterPath="$PROJECT_DIR$/fonts/fontello/css/fontello-ie7-codes.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontello/css/fontello-ie7.css" afterPath="$PROJECT_DIR$/fonts/fontello/css/fontello-ie7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/fontello/css/fontello.css" afterPath="$PROJECT_DIR$/fonts/fontello/css/fontello.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skins/gold.css" afterPath="$PROJECT_DIR$/css/skins/gold.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/google.map.config.js" afterPath="$PROJECT_DIR$/js/google.map.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skins/gray.css" afterPath="$PROJECT_DIR$/css/skins/gray.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skins/green.css" afterPath="$PROJECT_DIR$/css/skins/green.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/docs/css/highlight.css" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/docs/css/highlight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/src/docs/css/highlight.css" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/src/docs/css/highlight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/docs/js/highlight.js" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/docs/js/highlight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/src/docs/js/highlight.js" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/src/docs/js/highlight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/hover/hover-min.css" afterPath="$PROJECT_DIR$/plugins/hover/hover-min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/hover/hover.css" afterPath="$PROJECT_DIR$/plugins/hover/hover.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/index.html" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/isotope/isotope.pkgd.js" afterPath="$PROJECT_DIR$/plugins/isotope/isotope.pkgd.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/isotope/isotope.pkgd.min.js" afterPath="$PROJECT_DIR$/plugins/isotope/isotope.pkgd.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jasny-bootstrap/css/jasny-bootstrap.css" afterPath="$PROJECT_DIR$/plugins/jasny-bootstrap/css/jasny-bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jasny-bootstrap/js/jasny-bootstrap.js" afterPath="$PROJECT_DIR$/plugins/jasny-bootstrap/js/jasny-bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jasny-bootstrap/css/jasny-bootstrap.min.css" afterPath="$PROJECT_DIR$/plugins/jasny-bootstrap/css/jasny-bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jasny-bootstrap/js/jasny-bootstrap.min.js" afterPath="$PROJECT_DIR$/plugins/jasny-bootstrap/js/jasny-bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.browser.js" afterPath="$PROJECT_DIR$/plugins/jquery.browser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countTo.js" afterPath="$PROJECT_DIR$/plugins/jquery.countTo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-ar.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-bg.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-bn.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-bn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-bs.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-bs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-ca.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-cs.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-da.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-de.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-el.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-es.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-et.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-fa.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-fi.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-fo.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-fo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-fr.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-gl.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-gu.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-gu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-he.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-he.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-hr.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-hu.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-hy.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-hy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-id.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-is.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-is.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-it.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-ja.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-kn.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-kn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-ko.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-lt.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-lv.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-ml.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-ml.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-ms.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-ms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-my.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-my.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-nb.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-nl.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-pl.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-pt-BR.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-pt-BR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-ro.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-ru.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-sk.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-sl.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-sl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-sq.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-sq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-sr-SR.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-sr-SR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-sr.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-sr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-sv.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-th.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-tr.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-uk.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-ur.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-ur.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-uz.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-uz.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-vi.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-zh-CN.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-zh-CN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-zh-TW.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown-zh-TW.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown.css" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown.min.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.countdown.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.js" afterPath="$PROJECT_DIR$/plugins/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/magnific-popup/jquery.magnific-popup.js" afterPath="$PROJECT_DIR$/plugins/magnific-popup/jquery.magnific-popup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/magnific-popup/jquery.magnific-popup.min.js" afterPath="$PROJECT_DIR$/plugins/magnific-popup/jquery.magnific-popup.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/docs/js/jquery.min.js" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/docs/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.min.js" afterPath="$PROJECT_DIR$/plugins/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.parallax-1.1.3.js" afterPath="$PROJECT_DIR$/plugins/jquery.parallax-1.1.3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.plugin.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.plugin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.plugin.min.js" afterPath="$PROJECT_DIR$/plugins/jquery.countdown/jquery.plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rs-plugin/js/jquery.themepunch.revolution.js" afterPath="$PROJECT_DIR$/plugins/rs-plugin/js/jquery.themepunch.revolution.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js" afterPath="$PROJECT_DIR$/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rs-plugin/js/jquery.themepunch.tools.min.js" afterPath="$PROJECT_DIR$/plugins/rs-plugin/js/jquery.themepunch.tools.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/jquery.validate.js" afterPath="$PROJECT_DIR$/plugins/jquery.validate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/vide/jquery.vide.js" afterPath="$PROJECT_DIR$/plugins/vide/jquery.vide.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/vide/jquery.vide.min.js" afterPath="$PROJECT_DIR$/plugins/vide/jquery.vide.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/waypoints/jquery.waypoints.js" afterPath="$PROJECT_DIR$/plugins/waypoints/jquery.waypoints.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/waypoints/jquery.waypoints.min.js" afterPath="$PROJECT_DIR$/plugins/waypoints/jquery.waypoints.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb__volunteer_sidebar.html" afterPath="$PROJECT_DIR$/kfb__volunteer_sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb__volunteer_sidebar.php" afterPath="$PROJECT_DIR$/kfb__volunteer_sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb__volunteer_sidebar3.php" afterPath="$PROJECT_DIR$/kfb__volunteer_sidebar3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_about.php" afterPath="$PROJECT_DIR$/kfb_about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_admin_login.php" afterPath="$PROJECT_DIR$/kfb_admin_login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_administrative.php" afterPath="$PROJECT_DIR$/kfb_administrative.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_administrative2.php" afterPath="$PROJECT_DIR$/kfb_administrative2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_apply_form.php" afterPath="$PROJECT_DIR$/kfb_apply_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_background.php" afterPath="$PROJECT_DIR$/kfb_background.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_calendar.html" afterPath="$PROJECT_DIR$/kfb_calendar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_calendar.php" afterPath="$PROJECT_DIR$/kfb_calendar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_closesign_dialog.php" afterPath="$PROJECT_DIR$/kfb_closesign_dialog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_contact.php" afterPath="$PROJECT_DIR$/kfb_contact.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_contactform.php" afterPath="$PROJECT_DIR$/kfb_contactform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_dologin.php" afterPath="$PROJECT_DIR$/kfb_dologin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_donate_sidebar.html" afterPath="$PROJECT_DIR$/kfb_donate_sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_donations.php" afterPath="$PROJECT_DIR$/kfb_donations.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_donations_half_missing721pm.php" afterPath="$PROJECT_DIR$/kfb_donations_half_missing721pm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_facebook.html" afterPath="$PROJECT_DIR$/kfb_facebook.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_facebook_sidebar.html" afterPath="$PROJECT_DIR$/kfb_facebook_sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_footer.html" afterPath="$PROJECT_DIR$/kfb_footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_footer.php" afterPath="$PROJECT_DIR$/kfb_footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_formtemplate.php" afterPath="$PROJECT_DIR$/kfb_formtemplate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_head.160312.php" afterPath="$PROJECT_DIR$/kfb_head.160312.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_head.html" afterPath="$PROJECT_DIR$/kfb_head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_head.php" afterPath="$PROJECT_DIR$/kfb_head.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_head2.html" afterPath="$PROJECT_DIR$/kfb_head2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_hours.php" afterPath="$PROJECT_DIR$/kfb_hours.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_hours_dialog.css" afterPath="$PROJECT_DIR$/kfb_hours_dialog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_hours_kbackup2-29-3pm.php" afterPath="$PROJECT_DIR$/kfb_hours_kbackup2-29-3pm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_hours_what_happened.php" afterPath="$PROJECT_DIR$/kfb_hours_what_happened.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_jsfunctions.php" afterPath="$PROJECT_DIR$/kfb_jsfunctions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_login.php" afterPath="$PROJECT_DIR$/kfb_login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_login_dialog.php" afterPath="$PROJECT_DIR$/kfb_login_dialog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_login_effect.js" afterPath="$PROJECT_DIR$/kfb_login_effect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_login_style.css" afterPath="$PROJECT_DIR$/kfb_login_style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_login_style_2.css" afterPath="$PROJECT_DIR$/kfb_login_style_2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_login_style_4.css" afterPath="$PROJECT_DIR$/kfb_login_style_4.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_menubar.php" afterPath="$PROJECT_DIR$/kfb_menubar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_menubar2.html" afterPath="$PROJECT_DIR$/kfb_menubar2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_menubar2.php" afterPath="$PROJECT_DIR$/kfb_menubar2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_menubar3.php" afterPath="$PROJECT_DIR$/kfb_menubar3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_menubar_kbackup2-29.php" afterPath="$PROJECT_DIR$/kfb_menubar_kbackup2-29.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_neal_dialog_example.php" afterPath="$PROJECT_DIR$/kfb_neal_dialog_example.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_neal_dialog_example2.php" afterPath="$PROJECT_DIR$/kfb_neal_dialog_example2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_neal_dialog_example3.php" afterPath="$PROJECT_DIR$/kfb_neal_dialog_example3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_neal_dialog_example_4.php" afterPath="$PROJECT_DIR$/kfb_neal_dialog_example_4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_paypal.html" afterPath="$PROJECT_DIR$/kfb_paypal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_process_mail.php" afterPath="$PROJECT_DIR$/kfb_process_mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_processthanks.php" afterPath="$PROJECT_DIR$/kfb_processthanks.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_services-Test.php" afterPath="$PROJECT_DIR$/kfb_services-Test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_services-backup.php" afterPath="$PROJECT_DIR$/kfb_services-backup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_services.html" afterPath="$PROJECT_DIR$/kfb_services.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_services.php" afterPath="$PROJECT_DIR$/kfb_services.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_services2.php" afterPath="$PROJECT_DIR$/kfb_services2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_services3.php" afterPath="$PROJECT_DIR$/kfb_services3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_services4.php" afterPath="$PROJECT_DIR$/kfb_services4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_services5.php" afterPath="$PROJECT_DIR$/kfb_services5.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_services_sidebar.html" afterPath="$PROJECT_DIR$/kfb_services_sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_services_sidebar.php" afterPath="$PROJECT_DIR$/kfb_services_sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_sidebar.html" afterPath="$PROJECT_DIR$/kfb_sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_sidebar.php" afterPath="$PROJECT_DIR$/kfb_sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_sidebar2.html" afterPath="$PROJECT_DIR$/kfb_sidebar2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_sidebar_bozhang.php" afterPath="$PROJECT_DIR$/kfb_sidebar_bozhang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_sidebar_contactform.php" afterPath="$PROJECT_DIR$/kfb_sidebar_contactform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_sidebar_template.php" afterPath="$PROJECT_DIR$/kfb_sidebar_template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_sponsorform.php" afterPath="$PROJECT_DIR$/kfb_sponsorform.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_sponsorform2.php" afterPath="$PROJECT_DIR$/kfb_sponsorform2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_sponsorformfunctions.php" afterPath="$PROJECT_DIR$/kfb_sponsorformfunctions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_sponsorshiplist.php" afterPath="$PROJECT_DIR$/kfb_sponsorshiplist.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_sponsorshipstyle.css" afterPath="$PROJECT_DIR$/kfb_sponsorshipstyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_sponsorsprocessmail.php" afterPath="$PROJECT_DIR$/kfb_sponsorsprocessmail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_style.css" afterPath="$PROJECT_DIR$/kfb_style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_style2.css" afterPath="$PROJECT_DIR$/kfb_style2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_style_2.css" afterPath="$PROJECT_DIR$/kfb_style_2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_style_3.css" afterPath="$PROJECT_DIR$/kfb_style_3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_style_4.css" afterPath="$PROJECT_DIR$/kfb_style_4.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_style_kbackup2-29.css" afterPath="$PROJECT_DIR$/kfb_style_kbackup2-29.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_template.php" afterPath="$PROJECT_DIR$/kfb_template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_template2.php" afterPath="$PROJECT_DIR$/kfb_template2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_template_bozang.php" afterPath="$PROJECT_DIR$/kfb_template_bozang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_template_bozhang.php" afterPath="$PROJECT_DIR$/kfb_template_bozhang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_template_test.php" afterPath="$PROJECT_DIR$/kfb_template_test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_thanksprocess.php" afterPath="$PROJECT_DIR$/kfb_thanksprocess.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_top10_print.css" afterPath="$PROJECT_DIR$/kfb_top10_print.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_topten.txt" afterPath="$PROJECT_DIR$/kfb_topten.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_vbg.css" afterPath="$PROJECT_DIR$/kfb_vbg.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_volunteer.php" afterPath="$PROJECT_DIR$/kfb_volunteer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_volunteer.sample.html" afterPath="$PROJECT_DIR$/kfb_volunteer.sample.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_volunteer2.html" afterPath="$PROJECT_DIR$/kfb_volunteer2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_volunteer2.php" afterPath="$PROJECT_DIR$/kfb_volunteer2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_volunteer_schema.php" afterPath="$PROJECT_DIR$/kfb_volunteer_schema.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_volunteer_sidebar.html" afterPath="$PROJECT_DIR$/kfb_volunteer_sidebar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_volunteer_sidebar.php" afterPath="$PROJECT_DIR$/kfb_volunteer_sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_volunteer_sidebar2.php" afterPath="$PROJECT_DIR$/kfb_volunteer_sidebar2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_volunteerlist.php" afterPath="$PROJECT_DIR$/kfb_volunteerlist.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_volunteerlist2.php" afterPath="$PROJECT_DIR$/kfb_volunteerlist2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_wordtest2.html" afterPath="$PROJECT_DIR$/kfb_wordtest2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_wordtest2filtered.html" afterPath="$PROJECT_DIR$/kfb_wordtest2filtered.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skins/light_blue.css" afterPath="$PROJECT_DIR$/css/skins/light_blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/magnific-popup/magnific-popup.css" afterPath="$PROJECT_DIR$/plugins/magnific-popup/magnific-popup.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/docs/css/main.css" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/docs/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/main.html" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/docs/js/main.js" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/docs/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/methods.html" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/methods.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modal.php" afterPath="$PROJECT_DIR$/modal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/modernizr.js" afterPath="$PROJECT_DIR$/plugins/modernizr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/morphext/morphext.css" afterPath="$PROJECT_DIR$/plugins/morphext/morphext.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/morphext/morphext.js" afterPath="$PROJECT_DIR$/plugins/morphext/morphext.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/neal.css" afterPath="$PROJECT_DIR$/neal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/neal.php" afterPath="$PROJECT_DIR$/neal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap/js/npm.js" afterPath="$PROJECT_DIR$/bootstrap/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/options.html" afterPath="$PROJECT_DIR$/bootstrap-switch-master/bootstrap-switch-master/options.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skins/orange.css" afterPath="$PROJECT_DIR$/css/skins/orange.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/owl-carousel/owl.carousel.css" afterPath="$PROJECT_DIR$/plugins/owl-carousel/owl.carousel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/owl-carousel/owl.carousel.js" afterPath="$PROJECT_DIR$/plugins/owl-carousel/owl.carousel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/owl-carousel/owl.carousel.min.js" afterPath="$PROJECT_DIR$/plugins/owl-carousel/owl.carousel.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/owl-carousel/owl.theme.css" afterPath="$PROJECT_DIR$/plugins/owl-carousel/owl.theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/owl-carousel/owl.transitions.css" afterPath="$PROJECT_DIR$/plugins/owl-carousel/owl.transitions.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/pace/pace.min.js" afterPath="$PROJECT_DIR$/plugins/pace/pace.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skins/pink.css" afterPath="$PROJECT_DIR$/css/skins/pink.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/print-invoice.css" afterPath="$PROJECT_DIR$/css/print-invoice.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/printme.html" afterPath="$PROJECT_DIR$/printme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_includes/process_mail.php" afterPath="$PROJECT_DIR$/kfb_includes/process_mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skins/purple.css" afterPath="$PROJECT_DIR$/css/skins/purple.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skins/red.css" afterPath="$PROJECT_DIR$/css/skins/red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/savetext.php" afterPath="$PROJECT_DIR$/savetext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/session1.php" afterPath="$PROJECT_DIR$/session1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/session2.php" afterPath="$PROJECT_DIR$/session2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rs-plugin/css/settings-ie8.css" afterPath="$PROJECT_DIR$/plugins/rs-plugin/css/settings-ie8.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/rs-plugin/css/settings.css" afterPath="$PROJECT_DIR$/plugins/rs-plugin/css/settings.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/template.js" afterPath="$PROJECT_DIR$/js/template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skins/vivid_red.css" afterPath="$PROJECT_DIR$/css/skins/vivid_red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +311,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33563218">
-              <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -40,21 +324,11 @@
       <file leaf-file-name="kfb_menubar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kfb_menubar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="11.072727">
-              <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+            <state vertical-scroll-proportion="30.6">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="n#script#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modal.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modal.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.423077">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -62,8 +336,105 @@
       <file leaf-file-name="kfb_contactform.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kfb_contactform.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.3636365">
-              <caret line="182" column="38" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
+            <state vertical-scroll-proportion="-23.538462">
+              <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <marker date="1458386764415" expanded="true" signature="1091:7302" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thankyou_dialog.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thankyou_dialog.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-24.846153">
+              <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kfb_login_dialog.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kfb_login_dialog.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kfb_administrative.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kfb_administrative.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.8414633">
+              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+                <marker date="1458388621782" expanded="true" signature="3664:3749" placeholder="..." />
+                <marker date="1458388621782" expanded="true" signature="4388:4473" placeholder="..." />
+                <marker date="1458388621782" expanded="true" signature="5055:5084" placeholder="..." />
+                <marker date="1458388621782" expanded="true" signature="5629:5641" placeholder="..." />
+                <marker date="1458388621782" expanded="true" signature="5642:6563" placeholder="..." />
+                <marker date="1458388621782" expanded="true" signature="5658:6563" placeholder="..." />
+                <marker date="1458388621782" expanded="true" signature="5745:6558" placeholder="..." />
+                <marker date="1458388621782" expanded="true" signature="5789:6552" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kfb_sponsorshiplist.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kfb_sponsorshiplist.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1458184087000" expanded="true" signature="4399:4721" placeholder="SELECT `last..." />
+                <marker date="1458184087000" expanded="true" signature="7357:7442" placeholder="..." />
+                <marker date="1458184087000" expanded="true" signature="8291:8376" placeholder="..." />
+                <marker date="1458184087000" expanded="true" signature="9327:9356" placeholder="..." />
+                <marker date="1458184087000" expanded="true" signature="10105:10117" placeholder="..." />
+                <marker date="1458184087000" expanded="true" signature="10118:11319" placeholder="..." />
+                <marker date="1458184087000" expanded="true" signature="10134:11319" placeholder="..." />
+                <marker date="1458184087000" expanded="true" signature="10225:11314" placeholder="..." />
+                <marker date="1458184087000" expanded="true" signature="10273:11308" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process_mail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kfb_includes/process_mail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-27.615385">
+              <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modal_test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modal_test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-24.192308">
+              <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kfb_head.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kfb_head.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.207547">
+              <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -71,16 +442,32 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Html5" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kfb_menubar.php" />
-        <option value="$PROJECT_DIR$/kfb_contactform.php" />
         <option value="$PROJECT_DIR$/modal.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/kfb_about.php" />
+        <option value="$PROJECT_DIR$/kfb_menubar.php" />
+        <option value="$PROJECT_DIR$/kfb_login_dialog.php" />
+        <option value="$PROJECT_DIR$/kfb_includes/process_mail.php" />
+        <option value="$PROJECT_DIR$/kfb_head.php" />
+        <option value="$PROJECT_DIR$/kfb_login_effect.js" />
+        <option value="$PROJECT_DIR$/thankyou_dialog.php" />
+        <option value="$PROJECT_DIR$/modal_test.html" />
+        <option value="$PROJECT_DIR$/kfb_contactform.php" />
+        <option value="$PROJECT_DIR$/kfb_administrative.php" />
+        <option value="$PROJECT_DIR$/kfb_volunteerlist.php" />
       </list>
     </option>
   </component>
@@ -90,6 +477,9 @@
   </component>
   <component name="NamedScopeManager">
     <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
@@ -144,6 +534,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="portfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kfb_includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -151,10 +555,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="recentsLimit" value="5" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\portfolio" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.php">
     <configuration default="false" name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/portfolio/index.php">
@@ -190,6 +600,9 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Neal\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c277d27c-7a67-4d1b-9376-8027c8c37068" name="Default" comment="" />
@@ -214,7 +627,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39977974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39977974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -224,6 +637,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -232,24 +653,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kfb_contactform.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3636365">
-          <caret line="182" column="38" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kfb_menubar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="11.072727">
-          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding>
-            <element signature="n#script#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.423077">
@@ -258,11 +661,148 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kfb_about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.23077">
+          <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kfb_menubar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="30.6">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kfb_includes/process_mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.615385">
+          <caret line="71" column="6" selection-start-line="71" selection-start-column="6" selection-end-line="71" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kfb_login_dialog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kfb_login_effect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <marker date="1458363914000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thankyou_dialog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.846153">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modal_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.192308">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kfb_contactform.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.538462">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <marker date="1458386764415" expanded="true" signature="1091:7302" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kfb_head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.207547">
+          <caret line="57" column="53" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33563218">
-          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kfb_volunteerlist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3384075">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="82" selection-end-column="45" />
+          <folding>
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+            <marker date="1458388986693" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458388986693" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458388986693" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458388986693" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458388986693" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458388986693" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458388986693" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458388986693" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kfb_administrative.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8414633">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#!!top" expanded="false" />
+            <marker date="1458388621782" expanded="true" signature="3664:3749" placeholder="..." />
+            <marker date="1458388621782" expanded="true" signature="4388:4473" placeholder="..." />
+            <marker date="1458388621782" expanded="true" signature="5055:5084" placeholder="..." />
+            <marker date="1458388621782" expanded="true" signature="5629:5641" placeholder="..." />
+            <marker date="1458388621782" expanded="true" signature="5642:6563" placeholder="..." />
+            <marker date="1458388621782" expanded="true" signature="5658:6563" placeholder="..." />
+            <marker date="1458388621782" expanded="true" signature="5745:6558" placeholder="..." />
+            <marker date="1458388621782" expanded="true" signature="5789:6552" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kfb_sponsorshiplist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1458184087000" expanded="true" signature="4399:4721" placeholder="SELECT `last..." />
+            <marker date="1458184087000" expanded="true" signature="7357:7442" placeholder="..." />
+            <marker date="1458184087000" expanded="true" signature="8291:8376" placeholder="..." />
+            <marker date="1458184087000" expanded="true" signature="9327:9356" placeholder="..." />
+            <marker date="1458184087000" expanded="true" signature="10105:10117" placeholder="..." />
+            <marker date="1458184087000" expanded="true" signature="10118:11319" placeholder="..." />
+            <marker date="1458184087000" expanded="true" signature="10134:11319" placeholder="..." />
+            <marker date="1458184087000" expanded="true" signature="10225:11314" placeholder="..." />
+            <marker date="1458184087000" expanded="true" signature="10273:11308" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

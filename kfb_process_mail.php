@@ -66,6 +66,13 @@ if (!$suspect) :
         if (!$mailSent) {
             $errors['mailfail'] = true;
         }
+    else
+    {
+        $_SESSION["name"] = $from;
+        $_SESSION["email"] = $email;
+        $_SESSION["message"] = $message;
+
+    }
 
     endif;
 endif;

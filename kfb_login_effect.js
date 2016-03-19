@@ -1,14 +1,14 @@
-$(document).ready(function(){
-
-  //  alert("Document is ready");
-   $("#show_login").click(function(){
-    showpopup();
-   });
-   $("#close_login").click(function(){
-    hidepopup();
-   });
-
-});
+//$(document).ready(function(){
+//
+//  //  alert("Document is ready");
+//   $("#show_login").click(function(){
+//    showpopup();
+//   });
+//   $("#close_login").click(function(){
+//    hidepopup();
+//   });
+//
+//});
 
 
 function showpopup()
