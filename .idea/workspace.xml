@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c277d27c-7a67-4d1b-9376-8027c8c37068" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kfb_login_dialog.php" afterPath="$PROJECT_DIR$/kfb_login_dialog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nrn_administrative.php" afterPath="$PROJECT_DIR$/nrn_administrative.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nrn_contactform.php" afterPath="$PROJECT_DIR$/nrn_contactform.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nrn_dologin.php" afterPath="$PROJECT_DIR$/nrn_dologin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nrn_login.php" afterPath="$PROJECT_DIR$/nrn_login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nrn_login_dialog.php" afterPath="$PROJECT_DIR$/nrn_login_dialog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nrn_menubar.php" afterPath="$PROJECT_DIR$/nrn_menubar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thankyou_dialog.php" afterPath="$PROJECT_DIR$/thankyou_dialog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="c277d27c-7a67-4d1b-9376-8027c8c37068" name="Default" comment="" />
     <ignored path="portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -127,8 +116,8 @@
       <file leaf-file-name="nrn_contactform.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nrn_contactform.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4933586">
-              <caret line="114" column="40" selection-start-line="114" selection-start-column="40" selection-end-line="114" selection-end-column="40" />
+            <state vertical-scroll-proportion="2.516">
+              <caret line="89" column="47" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -341,7 +330,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1026,8 +1015,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nrn_contactform.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4933586">
-          <caret line="114" column="40" selection-start-line="114" selection-start-column="40" selection-end-line="114" selection-end-column="40" />
+        <state vertical-scroll-proportion="2.516">
+          <caret line="89" column="47" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="47" />
           <folding />
         </state>
       </provider>
