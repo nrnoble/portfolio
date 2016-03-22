@@ -56,27 +56,23 @@ echo "Connection info: <b>" .$conn->host_info ."</b><br>";
         $fieldnames = [];
         if ($result->field_count > 0)
         {
-        echo "<tr>";
+            echo "<tr>";
 
-        //   for ($idx = 0; $idx < 4; $idx =$idx+1)
-        //   {
-        //      $fieldnames[] = $field[$idx];
-        //      echo "<th class =\"fkb_datatable\" style = \" width: 250px;  border: 0px solid black; text-decoration: underline; \">". $field[$idx]->name . "</th>";
-        //   }
+            //   for ($idx = 0; $idx < 4; $idx =$idx+1)
+            //   {
+            //      $fieldnames[] = $field[$idx];
+            //      echo "<th class =\"fkb_datatable\" style = \" width: 250px;  border: 0px solid black; text-decoration: underline; \">". $field[$idx]->name . "</th>";
+            //   }
 
 
-        $count =0;
-        while($field = $result->fetch_field() )
-        {
-            $count++;
-            $fieldnames[] = $field->name;
-            if ($count < 6 )
-        {
-            echo "<th>" . $field->name . "</th>";
-        }
 
-        }
-        echo "</tr>";
+            while($field = $result->fetch_field() )
+            {
+
+                $fieldnames[] = $field->name;
+                echo "<th>" . $field->name . "</th>";
+            }
+            echo "</tr>";
         }
 
 
@@ -89,11 +85,12 @@ echo "Connection info: <b>" .$conn->host_info ."</b><br>";
         {
         // output data of each row
 
+        $rowcount = 0;
         while($row = $result->fetch_assoc())
         {
         $rowcount = $rowcount + 1;
 
-        echo "<tr id =\"row$rowcount\" value =\"$rowcount\"  onclick='ShowDetails(this)' ><td class =\"nrn_datatable\"  >". $row["$fieldnames[0]"]
+        echo "<tr id =\"row$rowcount\"  onclick='ShowDetails(this)' ><td class ='' >". $row["$fieldnames[0]"]
         . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[1]"]
         . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[2]"]
         //                                        . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[3]"]
@@ -101,8 +98,8 @@ echo "Connection info: <b>" .$conn->host_info ."</b><br>";
         . "</td></tr>\n\r";
         //                                    class ='kdb_datatable kdb_DataTableDetailedInfo'
         $rowcount = $rowcount +1;
-        echo "<tr id =\"row$rowcount\" value =\"$rowcount\" style='display:none'><td colspan='5'>
-        <div id='1' class ='kfb_DataTableDetailedInfo'>
+        echo "<tr id =\"row$rowcount\" style='display:none'><td colspan='5'>
+        <div id='1' class =''>
             <ul>
                 <li> <b>Sponsor:</b> " . $row["$fieldnames[1]"] . " " . $row["$fieldnames[0]"]. "</li>"
                 . "<li> <b>$fieldnames[2]:</b> " . $row["$fieldnames[2]"] ."</li>"

@@ -1,18 +1,14 @@
 
                     <? include "functions.php" ?>
 
-                    <div id = sqlconnection class ="pageblock" style="margin-top: 10px; display: none;">
+                    <!-- id sqlconnection -->
+                    <div id = sqlconnection class ="pageblock" style="margin-top: 10px; display: none ;">
 
-                        <h2>SQL CONNECTION</h2>
+                    <h2>SQL CONNECTION</h2>
                         <?php
 
-                        //$servername = gethostname();
-                        //$username = get_current_user();
-                        //$password = getpwd();
-
                         // Create connection
-//                        $conn = new mysqli("127.0.0.1", "nnoble_nrnoble", 'J$p1ter2',"nnoble_portfolio");
-                        $conn = new mysqli("127.0.0.1", "nnoble_nrnoble", 'J$p1ter2',"nnoble_portfolio");
+                        $conn = new mysqli("127.0.0.1", $sql_user, $sql_password,$sql_database );
 
                         // Check connection
                         if ($conn->connect_error)
@@ -24,15 +20,14 @@
                         echo 'Current script owner: <b>' . get_current_user() ."</b><br>";
                         echo "Connection info: <b>" .$conn->host_info ."</b><br>";
 
-
                         ?>
 
                     </div> <!-- id sqlconnection -->
 
 
 
-                    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.css">
-                    <script type="text/javascript" charset="utf-8" src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.js"></script>
+                    <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.11/css/jquery.dataTables.css">
+                    <script type="text/javascript" charset="utf-8" src="http://cdn.datatables.net/1.10.11/js/jquery.dataTables.js"></script>
 
                     <script>
                         $(document).ready(function()
@@ -42,36 +37,29 @@
                     </script>
 
 
-
-
                     <!-- search contacts -->
-                    <div id = "div5" name ="div5" class="pageblock" style=" margin-top: 10px;" >
-
-
+                    <div id = "div5" class="pageblock" style=" margin-top: 10px;" >
 
                         <?php
-                        $sqlfile = file_get_contents("kfb_sponsorshiplist_list.sql");
+                        $sqlfile = file_get_contents("nrn_contact_list.sql");
                         ?>
 
-                        <div id ="querybox" name="querybox" class="kfb_querybox">
-
+                        <div id ="querybox" name="querybox" class="nrn_querybox">
 
                             <form name="query" method="post" action="">
                                 <?php
                                 if (isset($_POST))
                                 {
-
                                     if ($_POST['submitquery'] == "Search")
                                     {
                                         $sqlfile = $_POST["textdata"];
                                     }
-
                                 }
                                 ?>
 
                                 <!--    File Name: <input type="text" name="filename" value=""><br/>-->
-                                <textarea  name="textdata" class = "kfb_queryeditbox"  style ="display:none" ><?php echo "$sqlfile"?></textarea><br/><br>
-                                <input type="submit" name="submitquery" value="Search" class="kfb_button" onclick="$('#contact_table').DataTable();">
+                                <textarea  name="textdata" class = "nrn_queryeditbox"  style ="display:none" ><?php echo "$sqlfile"?></textarea><br/><br>
+                                <input type="submit" name="submitquery" value="Search" class="nrn_button" onclick="$('#contact_table').DataTable();">
                                 <input type="text" name="sponsor_query" value="*">
                             </form>
                         
@@ -89,19 +77,15 @@
 
 
                     <!-- Contact List  -->
-                    <div id = "div6" name ="div6" class="pageblock" style=" margin-top: 10px;"; >
+                    <div id = "div61" class="pageblock1" style=" margin-top: 10px;" >
                         <?php
                         
                         $filter = "*";
-                        $filter= $_POST["sponsor_query"];
+                        $filter= $_POST["contact_query"];
                         
                         #echo "test: $filter";
-                        $query = "SELECT `name` as 'Name',`email` as 'Email', `comments`, FROM `contacts`";
-                                  //WHERE `name` LIKE '%$filter%'
-                                  // || `first_name` LIKE '%$filter%'
-                                  // || `email` LIKE '%$filter%'
-                                  // || `phone` LIKE '%$filter%'
-                                  // || `Comments` LIKE '%$filter%';";
+                        $query = "SELECT `name` as 'Name',`email` as 'Email', `comments` FROM `contacts` "
+                                  . "WHERE `name` LIKE '%$filter%' || `email` LIKE '%$filter%'";
                     #echo "test1: $query";
                         
                         if ($filter == "*" || $filter == "")
@@ -115,7 +99,7 @@
                         $result = $conn->query($query);
                         //TODO: write a function that create debug block
                         ?>
-                        <div style = "display: none" class ="page">
+                        <div style = "display: none" class ="page11">
                             <?php # echo "var_dump($result->num_rows)"; ?>
                         </div>
 
@@ -137,19 +121,12 @@
                             }
 
 
-                            function foo (e)
-                            {
-//                                e.preventDefault();
-                                var elem = $(this).next('.td1')
-                                elem.toggle('slow');
 
-                                //alert(id);
-                            }
 
                             function ShowDetails (e)
                             {
                                 var row = $(e).next("tr");
-                                $(row).toggle()
+                                $(row).toggle();
 //                                e.preventDefault();
 
                             }
@@ -160,6 +137,9 @@
 
 
                         <p class = 'todo'>TODO: Add functionality to be able sort by column when clicking on column header</p>
+
+
+
                         <table id = 'contact_table' >
 
                             <?php
@@ -169,12 +149,7 @@
                             if ($result->field_count > 0)
                             {
                                 echo "<tr>";
-//
-//                                for ($idx = 0; $idx < 4; $idx =$idx+1)
-//                                {
-//                                    $fieldnames[] = $field[$idx];
-//                                    echo "<th class =\"fkb_datatable\" style = \" width: 250px;  border: 0px solid black; text-decoration: underline; \">". $field[$idx]->name . "</th>";
-//                                }
+
 
 
                                 $count =0;
@@ -188,7 +163,7 @@
                                     }
 
                                 }
-                                echo "</tr>";
+                                echo "</tr>\r\n\r\r";
                             }
 
 
@@ -205,29 +180,25 @@
                                 {
                                     $rowcount = $rowcount + 1;
 
-                                    echo "<tr id =\"row$rowcount\" value =\"$rowcount\"  onclick='ShowDetails(this)' ><td class =\"nrn_datatable\"  >". $row["$fieldnames[0]"]
-                                        . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[1]"]
-                                        . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[2]"]
+                                    echo "<tr id =\"row$rowcount\" onclick='ShowDetails(this)'>\r\n  <td>". $row["$fieldnames[0]"]
+                                        . "</td>\r\n  <td>" . $row["$fieldnames[1]"]
+                                        . "</td>\r\n  <td>" . $row["$fieldnames[2]"]
 //                                        . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[3]"]
 //                                        . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[4]"]
-                                        . "</td></tr>\n\r";
+                                        . "</td>\r\n</tr>\n\r";
 //                                    class ='kdb_datatable kdb_DataTableDetailedInfo'
                                     $rowcount = $rowcount +1;
-                                    echo "<tr id =\"row$rowcount\" value =\"$rowcount\" style='display:none'><td colspan='5'>
-                                           <div id='1' class ='kfb_DataTableDetailedInfo'>
-                                           <ul>
-                                           <li> <b>Sponsor:</b> " . $row["$fieldnames[1]"] . " " . $row["$fieldnames[0]"]. "</li>"
-                                        . "<li> <b>$fieldnames[2]:</b> " . $row["$fieldnames[2]"] ."</li>"
-                                        . "<li> <b>$fieldnames[3]:</b> " . $row["$fieldnames[3]"] ."</li>"
-                                        . "<li> <b>$fieldnames[4]:</b> " . $row["$fieldnames[4]"] ."</li>"
-                                        . "<li> <b>$fieldnames[5]:</b> " . $row["$fieldnames[5]"] ."</li>"
-                                        . "<li> <b>$fieldnames[6]:</b> " . $row["$fieldnames[6]"] ."</li>"
-                                        . "<li> <b>$fieldnames[7]:</b> " . $row["$fieldnames[7]"] ."</li>"
-                                        . "<li> <b>$fieldnames[8]:</b> " . $row["$fieldnames[8]"] ."</li>"
-                                        . "<li> <b>$fieldnames[9]:</b> " . $row["$fieldnames[9]"] ."</li>"
-                                        ."</ul></div></td>";
-                                    echo "</td></tr>\n\r";
-//                                    echo "<h2>test</h2>";
+                                    echo "<tr id =\"row$rowcount\" style='display:none'>
+<td colspan='5'>
+    <div id='1' class =''>
+       <ul>
+         <li> <b>$fieldnames[0]:</b> " . $row["$fieldnames[0]"] ."</li>
+         <li> <b>$fieldnames[1]:</b> " . $row["$fieldnames[1]"] ."</li>
+         <li> <b>$fieldnames[2]:</b> " . $row["$fieldnames[2]"] ."</li>
+      </ul>
+    </div>
+</td>" . "</td>\r\n</tr>\n\r\r\n";
+
 
                                 }
                             }
@@ -242,14 +213,9 @@
                     </div> <!-- div5 -->
 
 
-
-
-
-
-
                     <div id = closesql class="pageblock" style="margin-top: 10px; display:none;">
                         <H3>Closing SQL connection</H3>
-                        <?php>
+                        <?php
                         //$sql = "ROLLBACK";
                         //$conn->query($sql);
                         mysqli_close($conn);

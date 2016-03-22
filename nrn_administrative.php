@@ -1,12 +1,13 @@
 <?php
 if(!isset($_SESSION))
 {
+
 	session_start();
 }
-else
-{
-//	$sessionID = $
-}
+
+
+include "nrn_config.php";
+
 
 if (empty($_POST['logout']))
 	$_POST['logout'] = "";
@@ -23,11 +24,6 @@ if (empty($_POST['logout']))
 	}
 
 
-
-
-
-
-
 if ($_SESSION['access'] == true)
 {
 	//echo "<script>alert('login true')</script>";
@@ -39,12 +35,12 @@ else
 
 
 	header('Location: index.php');
-	echo "<script>alert('$test')</script>";
+	#echo "<script>alert('$test')</script>";
 }
 
 ?><?php include "nrn_head.php" ?>
 
-<body class="no-trans   ">
+<body class="no-trans">
 
 <?php include "nrn_menubar.php" ?>
 
@@ -74,7 +70,10 @@ else
 					</div>
 
 
+
+
 					<?php include "nrn_contact_list.php"; ?>
+
 
 
 					<div id = 'kfb_themes' class = "pageblock" style="display: none">

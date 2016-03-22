@@ -6,21 +6,21 @@ if(!isset($_SESSION))
 }
 
 // Set global session variables.
-$_SESSION["sql_user"] = "nnoble_nrnoble";
-$_SESSION["sql_database"] = "nnoble_profile";
-$_SESSION["sql_password"] = "J\$p1ter2";
+$isIncluded = $_SESSION["isIncluded"] = true;
+$sql_user = $_SESSION["sql_user"] = "nnoble_nrnoble";
+$sql_database = $_SESSION["sql_database"] = "nnoble_portfolio";
+$sql_password = $_SESSION["sql_password"] = "J\$p1ter2";
 
 //user admin account
-$_SESSION["user_admin"] = "admin";
-$_SESSION["user_admin_password"] = "@dm1n";
+$user_admin = $_SESSION["user_admin"] = "admin";
+$user_admin_password = $_SESSION["user_admin_password"] = "@dm1n";
 
 // email
-$_SESSION["email_subject"] = "Thank you!";
-
-$_SESSION["email_from"] =  "nnoble@greenrivertech.net";
+$email_subject = $_SESSION["email_subject"] = "Thank you!";
+$email_from = $_SESSION["email_from"] =  "nnoble@greenrivertech.net";
 #$_session["email_from"] = "kaneses@greenrivertech.net";
-$_SESSION["email_cc"] = "neal@nnoble.greenrivertech.net";
-$_SESSION["site_HTTP_REFERER"] = "nnoble.greenrivertech.net";
+$email_cc = $_SESSION["email_cc"] = "neal@nnoble.greenrivertech.net";
+$site_HTTP_REFERER = $_SESSION["site_HTTP_REFERER"] = "nnoble.greenrivertech.net";
 
 
 

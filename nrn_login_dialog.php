@@ -10,6 +10,9 @@
     {
 
 
+
+
+
         //alert("showpopup()");
 
 
@@ -33,6 +36,7 @@
 
 
 </script>
+
 
 
 <div id="loginform" title="Administrative Login" style="display: none;" class = "nrn_login_dialog">

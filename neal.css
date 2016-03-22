@@ -58,18 +58,18 @@ h1
     }
 
 
-    .kfb_datatable tr,th,table
-    {
-        border: 0px solid black; !important;
-        padding: 5px;
-        font-family: "Calibri"; !important;
-        font-size: 12pt; !important;
-        text-align: left;
-        /*list-style-type: square; */
-        /*box-shadow: 1px 1px 5px #555 inset;*/
+    /*.kfb_datatable tr,th,table*/
+    /*{*/
+        /*border: 0px solid black; !important;*/
+        /*padding: 5px;*/
+        /*font-family: "Calibri"; !important;*/
+        /*font-size: 12pt; !important;*/
+        /*text-align: left;*/
+        /*!*list-style-type: square; *!*/
+        /*!*box-shadow: 1px 1px 5px #555 inset;*!*/
 
 
-    }
+    /*}*/
 
     .boxit
     {

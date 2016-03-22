@@ -17,14 +17,17 @@
     <orderEntry type="module-library">
       <library name="PHARS">
         <CLASSES>
-          <root url="phar://$MODULE_DIR$/../../bin/php/php5.6.16/pharcommand.phar" />
-          <root url="phar://$MODULE_DIR$/../../bin/php/php7.0.0/pharcommand.phar" />
+          <root url="phar://$MODULE_DIR$/../../bin/php/php5.6.16/pharcommand.phar/" />
+          <root url="phar://$MODULE_DIR$/../../bin/php/php7.0.0/pharcommand.phar/" />
         </CLASSES>
         <SOURCES>
-          <root url="phar://$MODULE_DIR$/../../bin/php/php5.6.16/pharcommand.phar" />
-          <root url="phar://$MODULE_DIR$/../../bin/php/php7.0.0/pharcommand.phar" />
+          <root url="phar://$MODULE_DIR$/../../bin/php/php5.6.16/pharcommand.phar/" />
+          <root url="phar://$MODULE_DIR$/../../bin/php/php7.0.0/pharcommand.phar/" />
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="jquery.dataTables" level="application" />
+    <orderEntry type="library" name="jquery-ui" level="application" />
+    <orderEntry type="library" name="jquery-1.11.1" level="application" />
   </component>
 </module>
