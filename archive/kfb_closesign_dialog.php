@@ -38,14 +38,14 @@
 <div id="kfb_closesign_dialog" title="Operating hours" style="display: none" class = "kfb_closesign_dialog">
     <center>
 
-    <img style="display: inline;" id="closed_sign_dialog" src="kfb_images/closed_sign_no_background.png" class= "kfb_closedsign_dialog" alt="KFB closed sign">
+    <img style="display: inline;" id="closed_sign_dialog" src="../nrn_images/closed_sign_no_background.png" class= "kfb_closedsign_dialog" alt="KFB closed sign">
 
     </center>
 </div>
 
 
 	<div class="pageblock">
-							<img style="display: inline;" id="closed_sign" src="kfb_images/closed_sign_no_background.png" class= "kfb_closedsign_image" alt="KFB logo" onclick="kfb_closesign_popup()">
+							<img style="display: inline;" id="closed_sign" src="../nrn_images/closed_sign_no_background.png" class= "kfb_closedsign_image" alt="KFB logo" onclick="kfb_closesign_popup()">
 						   <span class= "kfb_hours_of_operatrion">Alliance Center: Closed for the day</span>
 						   <div class="separator-2"></div>
 							  
@@ -53,7 +53,7 @@
 							  <li>On Wednesdays the Alliance Center is open between the hours of 10am - 1pm.</li>
 							  <li>Tomorrow, and every Thursday, the Alliance Center is open to seniors (55+) between the hours of 10am - 1pm</li><BR>
 						   </ul>	
-						   <img style="display: inline;" id="closed_sign" src="kfb_images/closed_sign_no_background.png" class= "kfb_closedsign_image" alt="KFB logo" onclick="kfb_closesign_popup()">
+						   <img style="display: inline;" id="closed_sign" src="../nrn_images/closed_sign_no_background.png" class= "kfb_closedsign_image" alt="KFB logo" onclick="kfb_closesign_popup()">
 						   <span class = "kfb_hours_of_operatrion">Birch Creek Annex: Closed for the day</span>
 						  <div class="separator-2"></div>
 						  <ul>

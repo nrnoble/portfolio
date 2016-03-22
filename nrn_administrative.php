@@ -61,7 +61,7 @@ else
 					<div id = "volunteers" class = "pageblock">
 						<h2>Contact List</h2>
 
-						<form id = "logout" method = "post" action = "kfb_administrative.php" >
+						<form id = "logout" method = "post" action = "archive/kfb_administrative.php" >
 							<input type="hidden" name="logout" id="hiddenField" value="istrue" />
 							<input type = "submit" id = "logout1" value="Logout">
 						</form>

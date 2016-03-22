@@ -2,9 +2,9 @@
 
 <html>
    <head>
-     <link rel="stylesheet" type="text/css" href="kfb_login_style.css">
+     <link rel="stylesheet" type="text/css" href="../kfb_login_style.css">
        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-     <script type="text/javascript" src="kfb_login_effect.js"></script>
+     <script type="text/javascript" src="../kfb_login_effect.js"></script>
    </head>
    
    <body>
@@ -15,10 +15,10 @@
         
         <div id = "loginform">
         
-            <form method = "post" action = "nrn_dologin.php">
+            <form method = "post" action = "../nrn_dologin.php">
                 <p>Kent Food Bank</p>
 
-                <input type = "image" id = "close_login" src = "kfb_images/close.png">
+                <input type = "image" id = "close_login" src = "../nrn_images/close.png">
                 <input type = "text" id = "login" placeholder = "Email Id" name = "uid">
                 <input type = "password" id = "password" name = "upass" placeholder = "***">
                 <input type = "submit" id = "dologin" value = "Login">

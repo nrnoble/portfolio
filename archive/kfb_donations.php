@@ -38,7 +38,7 @@ else
             mywindow.document.write('<html><head><title>Top Ten Items</title>');
             mywindow.document.write('<link rel="stylesheet" href="kfb_top10_print.css" media="print" type="text/css" />');
             mywindow.document.write('</head><body >');
-			mywindow.document.write('<img src ="images/kfb_logo15-dropshadow5.png"><br><br>');
+			mywindow.document.write('<img src ="../images/kfb_logo15-dropshadow5.png"><br><br>');
 			mywindow.document.write('Kent Food Bank');
 			mywindow.document.write('<pre>');
             mywindow.document.write(data);
@@ -223,7 +223,7 @@ else
 							<!-- sidebar start -->
 						<!-- ================ -->
 						<?php
-							include "kfb_donate_sidebar.html"
+						include "kfb_donate_sidebar.html"
 						?>
 						<!-- sidebar end -->
 

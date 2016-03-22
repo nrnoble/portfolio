@@ -241,7 +241,7 @@
 					   mail($to,$subject,$message,$headers,$authorized);
 					   ?>
 					   <br>
-					   <a href= index.php>Return to website.</a>
+					   <a href=../index.php>Return to website.</a>
 					   <?php
 					   exit;
 					}

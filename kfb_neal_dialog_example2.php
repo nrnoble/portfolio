@@ -25,7 +25,7 @@
         <form method = "post" action = "">
             <p>Kent Food Bank</p>
 
-            <input type = "image" id = "close_login" src = "kfb_images/close.png">
+            <input type = "image" id = "close_login" src = "nrn_images/close.png">
             <input type = "text" id = "login" placeholder = "Email Id" name = "uid">
             <input type = "password" id = "password" name = "upass" placeholder = "***">
             <input type = "submit" id = "dologin" value = "Login">

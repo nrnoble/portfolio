@@ -32,13 +32,13 @@
                     <script>
                         $(document).ready(function()
                         {
-                            $('#contact_table').DataTable();
+                            $('#example').DataTable();
                         } );
                     </script>
 
 
                     <!-- search contacts -->
-                    <div id = "div5" class="pageblock" style=" margin-top: 10px;" >
+                    <div id = "div5" class="pageblock" style=" margin-top: 10px; display: none" >
 
                         <?php
                         $sqlfile = file_get_contents("nrn_contact_list.sql");
@@ -77,7 +77,7 @@
 
 
                     <!-- Contact List  -->
-                    <div id = "div61" class="pageblock1" style=" margin-top: 10px;" >
+                    <div id = "div6" class="pageblock" style=" margin-top: 10px;" >
                         <?php
                         
                         $filter = "*";
@@ -139,39 +139,43 @@
                         <p class = 'todo'>TODO: Add functionality to be able sort by column when clicking on column header</p>
 
 
+                        <table id="example" class="display">
 
-                        <table id = 'contact_table' >
 
                             <?php
 
-                            # echo "var dump::  var_dump($result->fetch_field()[0]->name);";
+                            # echo "var dump::  var_dump($result->field_count);";
                             $fieldnames = [];
                             if ($result->field_count > 0)
                             {
-                                echo "<tr>";
+                                #echo "<thread>";
+                                #echo "<tr>";
 
 
-
+                                $th = "<tr>";
                                 $count =0;
                                 while($field = $result->fetch_field() )
                                 {
                                     $count++;
                                     $fieldnames[] = $field->name;
+
                                     if ($count < 6 )
                                     {
-                                        echo "<th>" . $field->name . "</th>";
+                                        #echo "$field->name \r\n";
+                                        $th =  $th . "<th>" . $field->name . "</th>";
+                                        #echo "$th";
                                     }
 
                                 }
-                                echo "</tr>\r\n\r\r";
+
+                                $th = $th . "</tr>";
+                                echo "\r\n<thead>" . $th . "</thead>\r\r\n";
+                                echo "<tfoot>" . $th . "</tfoot>\r\r\n";
                             }
 
-
                             //echo (var_dump($result));
-                            //$row = $result->fetch_assoc();
-                            //echo var_dump($row);
-                            // echo $row["AVG (film.length)"];
-                            //$rowcount =0;
+
+                            echo "<tbody>";
                             if ($result->num_rows > 0)
                             {
                                 // output data of each row
@@ -180,27 +184,29 @@
                                 {
                                     $rowcount = $rowcount + 1;
 
-                                    echo "<tr id =\"row$rowcount\" onclick='ShowDetails(this)'>\r\n  <td>". $row["$fieldnames[0]"]
+                                    echo "<tr id =\"row$rowcount\">\r\n"
+                                        .  "<td>". $row["$fieldnames[0]"]
                                         . "</td>\r\n  <td>" . $row["$fieldnames[1]"]
                                         . "</td>\r\n  <td>" . $row["$fieldnames[2]"]
 //                                        . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[3]"]
 //                                        . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[4]"]
                                         . "</td>\r\n</tr>\n\r";
 //                                    class ='kdb_datatable kdb_DataTableDetailedInfo'
-                                    $rowcount = $rowcount +1;
-                                    echo "<tr id =\"row$rowcount\" style='display:none'>
-<td colspan='5'>
-    <div id='1' class =''>
-       <ul>
-         <li> <b>$fieldnames[0]:</b> " . $row["$fieldnames[0]"] ."</li>
-         <li> <b>$fieldnames[1]:</b> " . $row["$fieldnames[1]"] ."</li>
-         <li> <b>$fieldnames[2]:</b> " . $row["$fieldnames[2]"] ."</li>
-      </ul>
-    </div>
-</td>" . "</td>\r\n</tr>\n\r\r\n";
+//                    $rowcount = $rowcount +1;
+//                    echo "<tr id =\"row$rowcount\" style='display:none'>
+//<td colspan='$result->field_count'>
+//    <div id='contact_id$rowcount' class =''>
+//       <ul>
+//         <li> <b>$fieldnames[0]:</b> " . $row["$fieldnames[0]"] ."</li>
+//         <li> <b>$fieldnames[1]:</b> " . $row["$fieldnames[1]"] ."</li>
+//         <li> <b>$fieldnames[2]:</b> " . $row["$fieldnames[2]"] ."</li>
+//      </ul>
+//    </div>\r\n
+//</tr>\n\r\r\n";
 
 
                                 }
+                                echo "</tbody>\r\n";
                             }
                             else
                             {
@@ -210,6 +216,7 @@
 
                             ?>
                         </table>
+
                     </div> <!-- div5 -->
 
 

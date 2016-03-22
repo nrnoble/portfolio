@@ -52,31 +52,26 @@ echo "Connection info: <b>" .$conn->host_info ."</b><br>";
 
         <?php
 
-                                # echo "var dump::  var_dump($result->fetch_field()[0]->name);";
+                            # echo "var dump::  var_dump($result->fetch_field()[0]->name);";
         $fieldnames = [];
         if ($result->field_count > 0)
         {
         echo "<tr>";
 
-        //   for ($idx = 0; $idx < 4; $idx =$idx+1)
-        //   {
-        //      $fieldnames[] = $field[$idx];
-        //      echo "<th class =\"fkb_datatable\" style = \" width: 250px;  border: 0px solid black; text-decoration: underline; \">". $field[$idx]->name . "</th>";
-        //   }
 
 
         $count =0;
         while($field = $result->fetch_field() )
         {
-            $count++;
-            $fieldnames[] = $field->name;
-            if ($count < 6 )
+        $count++;
+        $fieldnames[] = $field->name;
+        if ($count < 6 )
         {
-            echo "<th>" . $field->name . "</th>";
+        echo "<th>" . $field->name . "</th>";
         }
 
         }
-        echo "</tr>";
+        echo "</tr>\r\n\r\r";
         }
 
 
@@ -93,29 +88,25 @@ echo "Connection info: <b>" .$conn->host_info ."</b><br>";
         {
         $rowcount = $rowcount + 1;
 
-        echo "<tr id =\"row$rowcount\" value =\"$rowcount\"  onclick='ShowDetails(this)' ><td class =\"nrn_datatable\"  >". $row["$fieldnames[0]"]
-        . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[1]"]
-        . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[2]"]
+        echo "<tr id =\"row$rowcount\" onclick='ShowDetails(this)'>\r\n  <td>". $row["$fieldnames[0]"]
+        . "</td>\r\n  <td>" . $row["$fieldnames[1]"]
+        . "</td>\r\n  <td>" . $row["$fieldnames[2]"]
         //                                        . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[3]"]
         //                                        . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[4]"]
-        . "</td></tr>\n\r";
+        . "</td>\r\n</tr>\n\r";
         //                                    class ='kdb_datatable kdb_DataTableDetailedInfo'
         $rowcount = $rowcount +1;
-        echo "<tr id =\"row$rowcount\" value =\"$rowcount\" style='display:none'><td colspan='5'>
-        <div id='1' class ='kfb_DataTableDetailedInfo'>
-            <ul>
-                <li> <b>Sponsor:</b> " . $row["$fieldnames[1]"] . " " . $row["$fieldnames[0]"]. "</li>"
-                . "<li> <b>$fieldnames[2]:</b> " . $row["$fieldnames[2]"] ."</li>"
-                . "<li> <b>$fieldnames[3]:</b> " . $row["$fieldnames[3]"] ."</li>"
-                . "<li> <b>$fieldnames[4]:</b> " . $row["$fieldnames[4]"] ."</li>"
-                . "<li> <b>$fieldnames[5]:</b> " . $row["$fieldnames[5]"] ."</li>"
-                . "<li> <b>$fieldnames[6]:</b> " . $row["$fieldnames[6]"] ."</li>"
-                . "<li> <b>$fieldnames[7]:</b> " . $row["$fieldnames[7]"] ."</li>"
-                . "<li> <b>$fieldnames[8]:</b> " . $row["$fieldnames[8]"] ."</li>"
-                . "<li> <b>$fieldnames[9]:</b> " . $row["$fieldnames[9]"] ."</li>"
-                ."</ul></div></td>";
-        echo "</td></tr>\n\r";
-        //                                    echo "<h2>test</h2>";
+        echo "<tr id =\"row$rowcount\" style='display:none'>
+        <td colspan='5'>
+            <div id='1' class =''>
+                <ul>
+                    <li> <b>$fieldnames[0]:</b> " . $row["$fieldnames[0]"] ."</li>
+                    <li> <b>$fieldnames[1]:</b> " . $row["$fieldnames[1]"] ."</li>
+                    <li> <b>$fieldnames[2]:</b> " . $row["$fieldnames[2]"] ."</li>
+                </ul>
+            </div>
+        </td>" . "</td>\r\n</tr>\n\r\r\n";
+
 
         }
         }

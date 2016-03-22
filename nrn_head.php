@@ -56,11 +56,9 @@
 
 		<script type="text/javascript" charset="utf-8" src="http://cdn.datatables.net/1.10.11/js/jquery.dataTables.js"></script>
 
-	
+    
 
-	<?php include "kfb_footer.html" ?>
-
-	<?php include "kfb_jsfunctions.php" ?>
+	<?php include "nrn_jsfunctions.php" ?>
 
 
 

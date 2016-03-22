@@ -39,7 +39,7 @@
     <center>
 
 
-        <form id = "Loginform1" method = "post" action = "nrn_dologin.php">
+        <form id = "Loginform1" method = "post" action = "../nrn_dologin.php">
             User and Password
             <input type = "text" id = "login" placeholder = "" name = "uid"><br>
             <input type = "password" id = "password" name = "password" placeholder = "">

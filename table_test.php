@@ -1,3 +1,4 @@
+<?php include "nrn_config.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +10,7 @@
 
 
     <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.css">
-    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" charset="utf-8" src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.js"></script>
 
     <title>datatable test</title>
 </head>
@@ -18,10 +19,17 @@
     <script>
         $(document).ready(function()
         {
-            $('#table_id').DataTable();
+            $('#contact_table_id').DataTable();
         } );
     </script>
 
+
+    <script>
+        $(document).ready(function()
+        {
+            $('#example').DataTable();
+        } );
+    </script>
 
     <!-- id sqlconnection -->
     <div id=sqlconnection class="pageblock" style="margin-top: 10px; display: none ;">
@@ -48,105 +56,99 @@ echo "Connection info: <b>" .$conn->host_info ."</b><br>";
     <!-- id sqlconnection -->
 
 
-    <table id = 'contact_table' >
+    <table id="example" class="display" cellspacing="0" width="100%">
 
-        <?php
+            <thead>
+            <tr><th>Name</th><th>Email</th><th>comments</th></tr>
+            </thead>
 
-                                # echo "var dump::  var_dump($result->fetch_field()[0]->name);";
-        $fieldnames = [];
-        if ($result->field_count > 0)
-        {
-            echo "<tr>";
+        <tfoot>
+        <tr><th>Name</th><th>Email</th><th>comments</th></tr>
+        </tfoot>
 
-            //   for ($idx = 0; $idx < 4; $idx =$idx+1)
-            //   {
-            //      $fieldnames[] = $field[$idx];
-            //      echo "<th class =\"fkb_datatable\" style = \" width: 250px;  border: 0px solid black; text-decoration: underline; \">". $field[$idx]->name . "</th>";
-            //   }
-
-
-
-            while($field = $result->fetch_field() )
-            {
-
-                $fieldnames[] = $field->name;
-                echo "<th>" . $field->name . "</th>";
-            }
-            echo "</tr>";
-        }
-
-
-        //echo (var_dump($result));
-        //$row = $result->fetch_assoc();
-        //echo var_dump($row);
-        // echo $row["AVG (film.length)"];
-        //$rowcount =0;
-        if ($result->num_rows > 0)
-        {
-        // output data of each row
-
-        $rowcount = 0;
-        while($row = $result->fetch_assoc())
-        {
-        $rowcount = $rowcount + 1;
-
-        echo "<tr id =\"row$rowcount\"  onclick='ShowDetails(this)' ><td class ='' >". $row["$fieldnames[0]"]
-        . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[1]"]
-        . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[2]"]
-        //                                        . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[3]"]
-        //                                        . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[4]"]
-        . "</td></tr>\n\r";
-        //                                    class ='kdb_datatable kdb_DataTableDetailedInfo'
-        $rowcount = $rowcount +1;
-        echo "<tr id =\"row$rowcount\" style='display:none'><td colspan='5'>
-        <div id='1' class =''>
-            <ul>
-                <li> <b>Sponsor:</b> " . $row["$fieldnames[1]"] . " " . $row["$fieldnames[0]"]. "</li>"
-                . "<li> <b>$fieldnames[2]:</b> " . $row["$fieldnames[2]"] ."</li>"
-                . "<li> <b>$fieldnames[3]:</b> " . $row["$fieldnames[3]"] ."</li>"
-                . "<li> <b>$fieldnames[4]:</b> " . $row["$fieldnames[4]"] ."</li>"
-                . "<li> <b>$fieldnames[5]:</b> " . $row["$fieldnames[5]"] ."</li>"
-                . "<li> <b>$fieldnames[6]:</b> " . $row["$fieldnames[6]"] ."</li>"
-                . "<li> <b>$fieldnames[7]:</b> " . $row["$fieldnames[7]"] ."</li>"
-                . "<li> <b>$fieldnames[8]:</b> " . $row["$fieldnames[8]"] ."</li>"
-                . "<li> <b>$fieldnames[9]:</b> " . $row["$fieldnames[9]"] ."</li>"
-                ."</ul></div></td>";
-        echo "</td></tr>\n\r";
-        //                                    echo "<h2>test</h2>";
-
-        }
-        }
-        else
-        {
-        //print_r($result);
-        echo "0 results";
-        }
-
-        ?>
-    </table>
-
-
-
-    <table id="table_id">
-        <thead>
-        <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-        </tr>
-        </thead>
         <tbody>
-        <tr>
-            <td>Row 1 Data 1</td>
-            <td>Row 1 Data 2</td>
-        </tr>
-        <tr>
-            <td>Row 2 Data 1</td>
-            <td>Row 2 Data 2</td>
-        </tr>
+
+        <tr id ="row1"><td>Will</td>
+                <td>neal@nrnoble.com</td>
+                <td> Mail test</td>
+            </tr>
+
+            <tr id ="row3"><td>Neal</td>
+                <td>nrnoble@hotmail.com</td>
+                <td> asdfasdf</td>
+            </tr>
+
+            <tr id ="row5"><td>tina</td>
+                <td></td>
+                <td> hi</td>
+            </tr>
+
+            <tr id ="row7"><td>Tina</td>
+                <td>tostrander@greenriver.edu</td>
+                <td> Hello, Neal. Please reply when you get this.</td>
+            </tr>
+
+            <tr id ="row9"><td>Jimmy</td>
+                <td>Calhowen@mail.com</td>
+                <td> test</td>
+            </tr>
+
+            <tr id ="row11"><td>Jack</td>
+                <td>Safari@email.com</td>
+                <td> Good day mate!</td>
+            </tr>
+
+            <tr id ="row13"><td>Truman</td>
+                <td>truman@email.com</td>
+                <td>Good morning, and in case I don't see ya, good afternoon, good evening, and good night!</td>
+            </tr>
+
+            <tr id ="row15"><td>Mr. Spock</td>
+                <td>neal@nrnoble.com</td>
+                <td> Mr. Spock at neal@nrnoble.com</td>
+            </tr>
+
+            <tr id ="row17"><td>neal</td>
+                <td>neal@nnoble.greenrivertech.net</td>
+                <td> neal, neal@nnoble.greenrivertech.net</td>
+            </tr>
+
+            <tr id ="row19"><td>Neal2</td>
+                <td>neal@nrnoble.com</td>
+                <td> Neal2, neal@nrnoble.com</td>
+            </tr>
+
+            <tr id ="row21"><td>foo8</td>
+                <td>nrnoble@hotmail.com</td>
+                <td> foo8 at nrnoble@hotmail.com</td>
+            </tr>
+
+            <tr id ="row23"><td>neal1</td>
+                <td>nrnoble@hotmail.com</td>
+                <td> should be working now.</td>
+            </tr>
+
+            <tr id ="row25"><td>Tester</td>
+                <td>nrnoble@hotmail.com</td>
+                <td> Checking to see if data is entered into DB</td>
+            </tr>
+
+            <tr id ="row27"><td>Neal</td>
+                <td>neal@nrnoble.com</td>
+                <td> This is another test</td>
+            </tr>
         </tbody>
-    </table>
+        </table>
 
 
+    <div id = closesql class="pageblock" style="margin-top: 10px; display:none;">
+        <H3>Closing SQL connection</H3>
+        <?php
+        //$sql = "ROLLBACK";
+        //$conn->query($sql);
+        mysqli_close($conn);
+        ?>
+    </div> <!--id = closesql -->
 
 </body>
 </html>

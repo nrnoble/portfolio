@@ -138,7 +138,7 @@
 						<!-- sidebar start -->
 						<!-- ================ -->
 						<?php
-							include "kfb_services_sidebar.html"
+                        include "kfb_services_sidebar.html"
 						?>
 						<!-- sidebar end -->
 

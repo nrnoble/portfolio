@@ -387,7 +387,7 @@
 											<!-- mega-menu end -->
 											<!-- mega-menu start -->
 											<li class="kfb_menubar-button">
-												<a href="kfb_about.php" class="button">About</a>
+												<a href="archive/kfb_about.php" class="button">About</a>
 												<!-- Neal
                                                 <ul class="dropdown-menu">
 
@@ -707,7 +707,7 @@
                                             </li>
                                             -->
 											<li class="kfb_menubar-button">
-												<a href="kfb_administrative.php" class="button" style="display:<?php echo $admin_display ?>">Contact List (admin)</a>
+												<a href="archive/kfb_administrative.php" class="button" style="display:<?php echo $admin_display ?>">Contact List (admin)</a>
 												<!--														<ul class="dropdown-menu">
                                                                                                             <li ><a href="index-shop.html">Shop Home 1</a></li>
                                                                                                             <li ><a href="index-shop-2.html">Shop Home 2</a></li>

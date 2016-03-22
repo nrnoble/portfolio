@@ -1,5 +1,6 @@
+
 				<!--<legend>Select Size</legend>-->
-                <select id ="themeId" nameTheme="size" onmousedown="this.value='';" onchange="ChangeThemes(this.value);">
+                <select id ="themeId" name ="kfb_themes" onmousedown="this.value='';" onchange="ChangeThemes(this.value);" style="display: none">
                 <!--<select name="size" id="size">-->
                     <option value="custom-1">Custom-1</option>
                     <option value="custom-2">Custom-2</option>
@@ -10,13 +11,13 @@
 				
 			
 					
-				<div id="msgid">
-                </div>
+			<!--	<div id="msgid">-->
                 
-                 <script type="text/javascript">
-                    function ChangeThemes(value)
-                    {
-                        //var h = document.getElementsByTagName('head').item(0);
+                
+				  <script type="text/javascript">
+					 function ChangeThemes(value)
+					 {
+						//var h = document.getElementsByTagName('head').item(0);
                         //var s = document.createElement("link");
                         //s.type = "text/css"; 
                         //s.appendChild(document.createTextNode("href=\"test.css\ rel=\"stylesheet\""));
@@ -24,8 +25,6 @@
                         var cssfile = "";
                          var cssId = "";
                         DebugAlert("ChangeThemes:: value=" + value, debug);
-						
-						
 						
 						if (value == "custom-1")
                         {
@@ -57,7 +56,6 @@
                             cssId = value;
                         }
 
-                        
                         DebugAlert("ChangeThemes:: cssfile=" + cssfile, debug);
 
                         //var cssId = 'myCss';  // you could encode the css path itself to generate id..
@@ -65,7 +63,6 @@
                         if (value!="") 
                         {                        
                             
-							
                        // $(document).ready(function(){
                          //$("#msgid").html("This is Hello World by JQuery " + value );
                            //});
@@ -86,20 +83,14 @@
                             //head.appendChild(link);
                             //cssId ="";
 							DebugAlert("ChangeThemes:: SetTheme('" + cssfile + "');",debug );
-                            SetTheme(cssfile);
-                            
+                            SetTheme(cssfile);   
                         }
-                         
                     }
-					
-					
-				</script>
+				  </script>
 				
 
-<div class="header-container kfb_title" style="padding-bottom: 0px;">
-				
-
-				
+			   <div class="header-container kfb_title" style="padding-bottom: 0px;">
+			   
 				<!-- header-top start -->
 				<!-- classes:  -->
 				<!-- "dark": dark version of header top e.g. class="header-top dark" -->
@@ -109,27 +100,35 @@
 
 				<div>
 
-					<div class="brand" >
+					 <div class="brand" >
+											
 						
 						<!-- logo -->
 						<div id="logo" class="kfb_title">
-							
-							
-							<!--<a href="index.php" class= "kfb_logo"><img id="logo_img" src="images/kfb_logo15-dropshadow4.png" class= "kfb_logo" alt="KFB logo"></a>-->
-						
-							<!-- <a href="index.php"><img id="logo_img" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"  alt="paypal"></a> -->
-
+						     <!--Changed by Kandis on 2/29-->
+						     <!--<a href="index.php" class= "kfb_logo"><img style="display: inline;" id="logo_img" src="images/kfb_logo15-dropshadow5.png" class= "kfb_logo" alt="KFB logo"></a>-->
+						   <div class="column-left">
+						      <a href="../index.php" class= "kfb_logo"><img style="display: inline;" id="logo_img" src="kfb_images/kfb_logo_higher_res2.png" class= "kfb_logo" alt="KFB logo"></a>
+						   </div>
+						   <div class="column-center">
+						      <br><h1 style="display: inline;" class = "kfb_title">Kent Food bank & Emergency Services</h1>
+						      <br><h4 style="display: inline;" class = "kfb_title">Serving low-income residents of the Kent School District</h4>  <!-- moved by Kandis 2/29 -->
+						   </div>  
 						</div>
-						<h1 class = "kfb_title">Kent Food bank & Emergency Services</h1>
-					</div>
-					<div class="address-bar"><h3 h1 class = "kfb_title">Serving low-income residents of the Kent School District</h3></div>
-					<div class="row">
+						<!-- <h1 class = "kfb_title">Kent Food bank & Emergency Services</h1> -->
+					 </div>
+					 
+					<!-- <div class="address-bar">-->
+					<!--	<h3 class = "kfb_title">Serving low-income residents of the Kent School District</h3>-->
+					<!-- </div>-->
+					<!-- <div class="row"> -->
 					
 				</div>
-				<div class="header-top dark ">
+				<div>   <!--   <div class="header-top dark "> Removed by Kandis 2/29-->
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-3 col-sm-6 col-md-9">
+						
 								<!-- header-top-first start -->
 								<!-- ================ -->
 								
@@ -137,16 +136,7 @@
 												<div class="col-lg-6">
 
 								
-								<div class="header-top-first clearfix">
-									
-									
-									<!-- logo -->
-									<!--
-									<div id="logo" class="logo">
-										<a href="index.php"><img id="logo_img" src="images/kfb_logo15-dropshadow4.png" class= "kfb_logo" alt="KFB logo"></a>
-										
-										<!-- <a href="index.php"><img id="logo_img" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"  alt="paypal"></a> -->
-									
+								<div class="header-top-first clearfix" >
 									<!-- </div> -->
 									<!--neal
 									<ul class="social-links circle small clearfix hidden-xs">
@@ -196,7 +186,7 @@
 
 								<!-- header-top-second start -->
 								<!-- ================ -->
-								<div id="header-top-second" class="clearfix">
+								<div id="header-top-second" class="clearfix" style="color:orange !important;">
 
 									<!-- header top dropdowns start -->
 									<!-- ================ -->
@@ -264,7 +254,7 @@
 				<!-- "full-width": mandatory class for the full-width menu layout -->
 				<!-- "centered": mandatory class for the centered logo layout -->
 				<!-- ================ --> 
-				<header class="header fixed clearfix kfb_topmenubar">
+				<header class="header fixed clearfix kfb_topmenubar" >
 					<!--test1-->
 					<div class="container">
 						<!--test2-->
@@ -277,15 +267,6 @@
 								<div class="header-left clearfix">
 									<!--test5-->
 
-
-									
-	     
-                                     
-                            
-     
-    								
-									
-									
 
 									<!-- name-and-slogan -->
 									<div class="site-slogan">
@@ -312,18 +293,19 @@
 								<!-- "with-dropdown-buttons": Mandatory class that adds extra space, to the main navigation, for the search and cart dropdowns -->
 								<!-- ================ -->
 
-								<div class="main-navigation  animated with-dropdown-buttons">
+								<div class="main-navigation  animated with-dropdown-buttons"  >
 									<!--test12-->
 									<!-- navbar start -->
 									<!-- ================ -->
-									<nav class="navbar navbar-default" role="navigation">
+									<!--<nav class="navbar navbar-default" role="navigation">-->
+									<nav class="navbar navbar-default">
 										<div class="container-fluid">
 <!--test13-->
 
 											<!-- Toggle get grouped for better mobile display -->
 											<div class="navbar-header">
 <!--test14-->
-												<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+												<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1" >
 													<span class="sr-only">Toggle navigation</span>
 													<span class="icon-bar"></span>
 													<span class="icon-bar"></span>
@@ -342,15 +324,14 @@
 										
 								   
 												
-												<ul class="nav navbar-nav ">
-						
+												<ul class="nav navbar-nav style " >
+<!--													style="color:red; !important;"-->
 
 	
 													<!-- mega-menu start -->													
-													<li class="dropdown  mega-menu" style="">
-														<a href="index.php" class="dropdown-toggle"
-														   style="color:black; background-color:#2d862d; "
-														   data-toggle="dropdown">Home</a>
+													<li class="dropdown kfb_menubar-button">
+														<!--<a href="index.php" class="dropdown active mega-menu  kfb_menubar-button"  data-toggle="dropdown" >Home</a>-->
+														<a href="../index.php" class="dropdown-toggle" data-toggle="dropdown">Home</a>
 														<!-- neal
 														<ul class="dropdown-menu">
 															<li>
@@ -401,8 +382,8 @@
 													</li>
 													<!-- mega-menu end -->
 													<!-- mega-menu start -->
-													<li class="dropdown active mega-menu" style="">
-														<a href="#" class="dropdown-toggle" style="color:black; background-color:#2d862d" data-toggle="dropdown">About</a>
+													<li class="dropdown kfb_menubar-button">
+														<a href="kfb_about.php" class="dropdown-toggle" data-toggle="dropdown">About</a>
 														<!-- Neal
 														<ul class="dropdown-menu">
 															
@@ -470,7 +451,7 @@
 													</li>
 													<!-- mega-menu end -->
 													<li class="dropdown" style="">
-														<a class="dropdown-toggle" style="color:black; background-color:#2d862d" data-toggle="dropdown" href="kfb_services.php">Services</a>
+														<a class="dropdown-toggle kfb_menubar-button" data-toggle="dropdown" href="kfb_services.php">Services</a>
 														<!-- neal
 														<ul class="dropdown-menu">
 															<li class="dropdown ">
@@ -567,7 +548,7 @@
 													</li>
 													<!-- mega-menu start -->													
 													<li class="dropdown  mega-menu narrow" style="">
-														<a href = "kfb_donations.php" class="dropdown-toggle" style="color:black; background-color:#2d862d" data-toggle="dropdown">Donations</a>
+														<a href = "kfb_donations.php" class="dropdown-toggle kfb_menubar-button" data-toggle="dropdown">Donations</a>
 														<!-- neal
 														<ul class="dropdown-menu">
 															<li>
@@ -617,7 +598,7 @@
 													<!-- mega-menu end -->
 													
 													<li class="dropdown ">
-													<a href = "kfb_volunteer.php" class="dropdown-toggle" style="color:black; background-color:#2d862d" data-toggle="dropdown">Volunteer</a>
+													<a href = "kfb_volunteer.php" class="dropdown-toggle kfb_menubar-button" data-toggle="dropdown">Volunteer</a>
 													<!--	<a href="kfb_volunteer.php" style="color:black; background-color:#2d862d" data-toggle="dropdown">Volunteer</a>-->
 														<!-- 
 														<ul class="dropdown-menu">
@@ -670,32 +651,23 @@
 														</ul>
 													</li>
 													-->
-													<li class="dropdown ">
-														 
-															
-
-
-  
-
-
-														
-													
-<!--														<a href="index-shop.html" class="dropdown-toggle" data-toggle="dropdown">Shop</a>
-														<ul class="dropdown-menu">
-															<li ><a href="index-shop.html">Shop Home 1</a></li>
-															<li ><a href="index-shop-2.html">Shop Home 2</a></li>
-															<li ><a href="shop-listing-4col.html">Grid - 4 Columns</a></li>
-															<li ><a href="shop-listing-3col.html">Grid - 3 Columns</a></li>
-															<li ><a href="shop-listing-2col.html">Grid - 2 Columns</a></li>
-															<li ><a href="shop-listing-sidebar.html">Grid - With Sidebar</a></li>
-															<li ><a href="shop-listing-list.html">List</a></li>
-															<li ><a href="shop-product.html">Product</a></li>
-															<li ><a href="shop-cart.html">Shopping Cart</a></li>
-															<li ><a href="shop-checkout.html">Checkout Page - Step 1</a></li>
-															<li ><a href="shop-checkout-payment.html">Checkout Page - Step 2</a></li>
-															<li ><a href="shop-checkout-review.html">Checkout Page - Step 3</a></li>
-															<li ><a href="shop-invoice.html">Invoice</a></li>
-														</ul>-->
+												   <li class="dropdown ">
+												   <a href="kfb_administrative.php" class="dropdown-toggle kfb_menubar-button" data-toggle="dropdown">Administrative</a>
+														<!--														<ul class="dropdown-menu">
+                                                                                                                    <li ><a href="index-shop.html">Shop Home 1</a></li>
+                                                                                                                    <li ><a href="index-shop-2.html">Shop Home 2</a></li>
+                                                                                                                    <li ><a href="shop-listing-4col.html">Grid - 4 Columns</a></li>
+                                                                                                                    <li ><a href="shop-listing-3col.html">Grid - 3 Columns</a></li>
+                                                                                                                    <li ><a href="shop-listing-2col.html">Grid - 2 Columns</a></li>
+                                                                                                                    <li ><a href="shop-listing-sidebar.html">Grid - With Sidebar</a></li>
+                                                                                                                    <li ><a href="shop-listing-list.html">List</a></li>
+                                                                                                                    <li ><a href="shop-product.html">Product</a></li>
+                                                                                                                    <li ><a href="shop-cart.html">Shopping Cart</a></li>
+                                                                                                                    <li ><a href="shop-checkout.html">Checkout Page - Step 1</a></li>
+                                                                                                                    <li ><a href="shop-checkout-payment.html">Checkout Page - Step 2</a></li>
+                                                                                                                    <li ><a href="shop-checkout-review.html">Checkout Page - Step 3</a></li>
+                                                                                                                    <li ><a href="shop-invoice.html">Invoice</a></li>
+                                                                                                                </ul>-->
 													
 													
 													</li>
@@ -802,8 +774,9 @@
 												</div>
 												-->
 												<!-- header dropdown buttons end-->
-												
-											</ul></div>
+											
+											</div>	
+											<!--</ul></div>-->
 
 										</div>
 									</nav>

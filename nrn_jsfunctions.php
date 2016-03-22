@@ -16,7 +16,8 @@
             var cookie = CookieName + "=" + cookieValue + "; expires=Sat, 31 Dec 2016 12:00:00 UTC";
             DebugAlert("setCookie:: The cookie being set is: " + cookie, debug);
             document.cookie = cookie;
-            DebugAlert("setCookie:: Debug Checking '" + CookieName + "' value: " + "getCookie('" + CookieName + "')) = " + getCookie(CookieName),debug);
+            DebugAlert("setCookie:: Debug Checking '" + CookieName + "' value: "
+                + "getCookie('" + CookieName + "')) = " + getCookie(CookieName),debug);
             
         }
 

@@ -29,7 +29,7 @@
             mywindow.document.write('<html><head><title>Top Ten Items</title>');
             mywindow.document.write('<link rel="stylesheet" href="kfb_top10_print.css" media="print" type="text/css" />');
             mywindow.document.write('</head><body >');
-			mywindow.document.write('<h1><img src ="images/kfb_logo15-dropshadow5.png"></h1><br><br>');
+			mywindow.document.write('<h1><img src ="../images/kfb_logo15-dropshadow5.png"></h1><br><br>');
 			mywindow.document.write('<h1>Kent Food Bank</h1><br>');
 			mywindow.document.write('<h1>Top Ten Items List</h1>');
 			mywindow.document.write('<pre>');
