@@ -32,7 +32,7 @@
                     <script>
                         $(document).ready(function()
                         {
-                            $('#example').DataTable();
+                            $('#contact_table_id').DataTable();
                         } );
                     </script>
 
@@ -136,10 +136,7 @@
                         </script>
 
 
-                        <p class = 'todo'>TODO: Add functionality to be able sort by column when clicking on column header</p>
-
-
-                        <table id="example" class="display">
+                        <table id="contact_table_id" class="display">
 
 
                             <?php
