@@ -30,6 +30,20 @@
                     </div> <!-- id sqlconnection -->
 
 
+
+                    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.css">
+                    <script type="text/javascript" charset="utf-8" src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.js"></script>
+
+                    <script>
+                        $(document).ready(function()
+                        {
+                            $('#contact_table').DataTable();
+                        } );
+                    </script>
+
+
+
+
                     <!-- search contacts -->
                     <div id = "div5" name ="div5" class="pageblock" style=" margin-top: 10px;" >
 
@@ -57,7 +71,7 @@
 
                                 <!--    File Name: <input type="text" name="filename" value=""><br/>-->
                                 <textarea  name="textdata" class = "kfb_queryeditbox"  style ="display:none" ><?php echo "$sqlfile"?></textarea><br/><br>
-                                <input type="submit" name="submitquery" value="Search" class="kfb_button">
+                                <input type="submit" name="submitquery" value="Search" class="kfb_button" onclick="$('#contact_table').DataTable();">
                                 <input type="text" name="sponsor_query" value="*">
                             </form>
                         
@@ -72,6 +86,7 @@
 
 
                     </div>
+
 
                     <!-- Contact List  -->
                     <div id = "div6" name ="div6" class="pageblock" style=" margin-top: 10px;"; >
@@ -124,7 +139,7 @@
 
                             function foo (e)
                             {
-                                e.preventDefault();
+//                                e.preventDefault();
                                 var elem = $(this).next('.td1')
                                 elem.toggle('slow');
 
@@ -135,7 +150,7 @@
                             {
                                 var row = $(e).next("tr");
                                 $(row).toggle()
-                                e.preventDefault();
+//                                e.preventDefault();
 
                             }
 
@@ -145,7 +160,7 @@
 
 
                         <p class = 'todo'>TODO: Add functionality to be able sort by column when clicking on column header</p>
-                        <table>
+                        <table id = 'contact_table' >
 
                             <?php
 
@@ -153,7 +168,7 @@
                             $fieldnames = [];
                             if ($result->field_count > 0)
                             {
-                                echo "<tr style = \" width: 250px;  border: 0px solid black; text-decoration: underline; text-align: left\">";
+                                echo "<tr>";
 //
 //                                for ($idx = 0; $idx < 4; $idx =$idx+1)
 //                                {
@@ -169,7 +184,7 @@
                                     $fieldnames[] = $field->name;
                                     if ($count < 6 )
                                     {
-                                        echo "<th class =\"fkb_datatable\" style = \" width: 250px;  border: 0px solid black; text-decoration: underline; text-align: left\">" . $field->name . "</th>";
+                                        echo "<th>" . $field->name . "</th>";
                                     }
 
                                 }
@@ -190,7 +205,7 @@
                                 {
                                     $rowcount = $rowcount + 1;
 
-                                    echo "<tr id =\"row$rowcount\" value =\"$rowcount\" class =\"fkb_datatable\" onclick='ShowDetails(this)' ><td class =\"kfb_datatable\"  style = \"text-align: left ;!important;\">". $row["$fieldnames[0]"]
+                                    echo "<tr id =\"row$rowcount\" value =\"$rowcount\"  onclick='ShowDetails(this)' ><td class =\"nrn_datatable\"  >". $row["$fieldnames[0]"]
                                         . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[1]"]
                                         . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[2]"]
 //                                        . "</td><td class =\"fkb_datatable\">" . $row["$fieldnames[3]"]
@@ -225,6 +240,7 @@
                             ?>
                         </table>
                     </div> <!-- div5 -->
+
 
 
 

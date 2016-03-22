@@ -55,12 +55,19 @@
 		<link rel="stylesheet" type="text/css" href="neal.css" >
 	    <link rel="stylesheet" type="text/css" href="myresume.css" >
 
-		<script type="text/javascript" src="kfb_login_effect.js"></script>
+
+
+
+
+	<script type="text/javascript" src="kfb_login_effect.js"></script>
 	    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
 	    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.css">
+	<script type="text/javascript" charset="utf-8" src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.js"></script>
 
-        <?php include "kfb_footer.html" ?>
+
+	<?php include "kfb_footer.html" ?>
 
 		<?php include "kfb_jsfunctions.php" ?>
 

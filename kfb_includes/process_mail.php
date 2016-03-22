@@ -63,10 +63,40 @@ if (!$suspect) :
             $field = str_replace('_', ' ', $field);
             $message .= ucfirst($field) . ": $val\r\n\r\n";
         endforeach;
-        $message = wordwrap($message, 70);
-        $mailSent = mail($to, $subject, $message, $headers, $authorized);
-        if (!$mailSent) {
+        $message = "<html>"
+            . "<head>"
+            . "<style>"
+            . ".mymail{ font-size: 14pt; font-family:Courier New;}"
+            . "</style>"
+            . "</head>"
+            . "<span class ='mymail'><b>"
+            . $_SESSION["name"] . ', </b><br><br>Thanks for contacting me, I will get back you as soon as possible.<br><br>Neal<br><br>'
+            #."-------------------------------------------------------------<br>"
+            #. $_POST["comments"]
+            . "</span>"
+            . "</body>"
+            . "</html>";
+        //$message = wordwrap($message, 70);
+
+
+        // Send message
+        $mailSent = mail($to, $subject, $message, $headers);
+
+
+        // If mail failed to be sent
+        if (!$mailSent)
+        {
             $errors['mailfail'] = true;
+            print_R ($errors);
+            print_R ($_SESSION);
         }
+    else
+    {
+        #echo"mail should have been sent";
+        #print_R ($errors);
+        #print_R ($_SESSION);
+    }
+
+
     endif;
 endif;

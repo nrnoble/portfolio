@@ -1,4 +1,14 @@
-<?php session_start();
+<?php
+
+# This is called from Admin dialog.
+# If login is successful the user will be taken to the Contact list page
+# Contact List menu item will appear in menu bar when $_SESSION["access"] == true;
+#
+
+if(!isset($_SESSION))
+{
+   session_start();
+}
 
 $id = $_POST['uid'];
 $pass1 = $_POST['password'];
@@ -10,12 +20,12 @@ $pass = ' ';
 $_SESSION["access"] = false;
 
 
-if ($id == 'admin' && $pass1 == '@dm1n')
+if ($id == $_SESSION["user_admin"] && $pass1 == $_SESSION["user_admin_password"])
 {
    $_SESSION["access"] = true;
    //echo $_SESSION["access"] ;
    $test = $_SESSION['access'];
-   $test = "foo1";
+
 
 
    //echo "<script>alert('$test')</script>";

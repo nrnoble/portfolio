@@ -1,26 +1,95 @@
 <?php
-session_start();
+
+// Check if session has been started, if not then start
+if(!isset($_SESSION))
+{
+	session_start();
+}
+
+// include global configuration variables
+include "nrn_config.php";
+$name_err = "";
+$email_err = "";
+$security_check = true;
+
 if (isset($_POST['send']))
+{
+
+    #require './includes/validate.php';
+    #require 'functions.php';
+
+
+    $name  		= trim(htmlentities($_POST['name']));
+    $comments   = trim(htmlentities($_POST['comments']));
+    $email		= trim(htmlentities($_POST['email']));
+
+
+
+    if(!strstr($_SERVER['HTTP_REFERER'],$_SESSION["site_HTTP_REFERER"] ))
+	{
+		die("Are you lost?");
+	}
+
+
+
+   if (ctype_alpha ($name) == false || $name == "")
+   {
+	   $security_check = false;
+	   $_SESSION["name_err"] = "    <-- Must be A-Z";
+	   $name_err = $_SESSION["name_err"];
+   }
+
+
+	if (strpos($email, '@') == false || $email == "")
+	{
+		$security_check = false;
+		$_SESSION["email_err"] = "    <-- must include '@'";
+		$email_err = $_SESSION["email_err"];
+
+	}
+
+	if ($comments == "")
+	{
+		$security_check = false;
+		$_SESSION["comments_err"] = "    <--Please enter a short message";
+		$comments_err = $_SESSION["comments_err"];
+	}
+
+}
+
+
+
+
+if (isset($_POST['send']) && ($security_check == true))
 {
 	//echo("<h2>sending email...</h2>"); 
     $expected = ['name', 'email', 'comments'];
     $required = ['name', 'comments'];
-    $to = 'Neal Noble<nrnoble@hotmail.com>';
-    $subject = 'Feedback from online form';
+    $to = $_POST['email'];
+    $subject = $_SESSION["email_subject"];
     $headers = [];
-    $headers[] = 'From: kaneses@greenrivertech.net';
-    $headers[] = 'Cc: neal@nrnoble.com, nnoble2@greenrivertech.net';
-    $headers[] = 'Content-type: text/plain; charset=utf-8';
+    #$headers[] = 'From: ' . $_SESSION["email_from"];
+    $headers[] = 'From: ' . $_SESSION["email_from"];
+    $headers[] = 'Cc: ' . $_SESSION["email_cc"];
+	#print_r($_session);
+    //$headers[] = 'Content-type: text/plain; charset=utf-8';
+	$headers[] = "'MIME-Version: 1.0'";
+	$headers[] = "Content-type: text/html; charset=iso-8859-1";
      $authorized = '';
+
+	$_SESSION['name'] = $_POST['name'];
+	$_SESSION['email'] = $_POST['email'];
+	$_SESSION['comments'] = $_POST['comments'];
+#print_r($headers);
     require './kfb_includes/process_mail.php';
 
     if ($mailSent)
     {
-        //print_r($_POST);
-        $_SESSION['name'] = $_POST['name'];
-        $_SESSION['email'] = $_POST['email'];
-        $_SESSION['comments'] = $_POST['comments'];
-       // echo "<script>showpopup();</script>";
+        // print_r($_POST);
+        // $_SESSION['name'] = $_POST['name'];
+        // $_SESSION['email'] = $_POST['email'];
+        // $_SESSION['comments'] = $_POST['comments'];
+        // echo "<script>showpopup();</script>";
         header('Location: nrn_contact_add.php');
 
 
@@ -98,23 +167,63 @@ if ($mailSent)
 							  
 								<div class="form-group">
 <!--								  <label for="InputName">Your Name</label>-->
-                                    <label>Your Name</label>
-								  <div class="input-group">
-									<input type="text" class="form-control" name="name" id="name" placeholder="Enter Name" required>
-									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+									<?php
+										if ($name_err != "")
+										{
+											echo "<label>Your Name $name_err</label>";
+											$name_err != "";
+										}
+										else
+										{
+											echo "<label>Your Name</label>";
+											$name_err != "";
+										}
+									?>
+
+											  <div class="input-group">
+
+									  <input type="text" class="form-control" name="name" id="name" placeholder="Enter Name" value = '<?php echo "$name" ?>' required>
+
+
+									  <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
 								</div>
 								<div class="form-group">
 <!--								  <label for="InputEmail">Your Email</label>-->
-                                    <label>Your Email</label>
-								  <div class="input-group">
-									<input type="email" class="form-control" id="email" name="email" placeholder="Enter Email" required  >
+									<?php
+									if ($email_err != "")
+									{
+										echo "<label> Your Email $email_err </label>";
+										$email_err = "";
+									}
+									else
+									{
+										echo "<label> Your Email </label >";
+										$email_err = "";
+									}
+									?>
+									<div class="input-group">
+									<input type='email' class='form-control' id='email' name='email' placeholder='Enter Email' value = '<?php echo "$email" ?>' required>
+
 									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
 								</div>
 								<div class="form-group">
 <!--								  <label for="InputMessage">Message</label>-->
-								  <label>Message</label>
+
+									<?php
+									if ($comments_err != "")
+									{
+										echo "<label>Comments $comments_err </label>";
+										$comments_err = "";
+									}
+									else
+									{
+										echo "<label>Comments</label>";
+									}
+									?>
+
+
 								  <div class="input-group">
-									<textarea name="comments" id="InputMessage" class="form-control" rows="5" required></textarea>
+									<textarea name="comments" id="InputMessage" class="form-control" rows="5" required><?php echo "$comments" ?></textarea>
 									<span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
 								</div>
 					  
