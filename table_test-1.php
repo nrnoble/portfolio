@@ -10,12 +10,12 @@
 
 
     <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.css">
-    <script type="text/javascript" charset="utf-8" src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" charset="utf-8" src="http://cdn.datatables.net/1.10.11/js/jquery.dataTables.js"></script>
 
     <title>datatable test</title>
 </head>
 <body>
-
+<?php include "nrn_php_functions.php"?>
     <script>
         $(document).ready(function()
         {
@@ -37,18 +37,18 @@
 <h2>SQL CONNECTION</h2>
 <?php
 
-                            // Create connection
-                            $conn = new mysqli("127.0.0.1", $sql_user, $sql_password,$sql_database );
+            // Create connection
+            $conn = new mysqli("127.0.0.1", $sql_user, $sql_password,$sql_database );
 
-                            // Check connection
-                            if ($conn->connect_error)
-{
-die("Connection failed: " . $conn->connect_error);
-}
+            // Check connection
+            if ($conn->connect_error)
+            {
+                die("Connection failed: " . $conn->connect_error);
+            }
 
-echo "Connected successfully SQL server: <b>" .gethostname() ."</b><br>";;
-echo 'Current script owner: <b>' . get_current_user() ."</b><br>";
-echo "Connection info: <b>" .$conn->host_info ."</b><br>";
+        echo "Connected successfully SQL server: <b>" .gethostname() ."</b><br>";;
+        echo 'Current script owner: <b>' . get_current_user() ."</b><br>";
+        echo "Connection info: <b>" .$conn->host_info ."</b><br>";
 
 ?>
 
@@ -123,33 +123,8 @@ echo "Connection info: <b>" .$conn->host_info ."</b><br>";
 
             # echo "var dump::  var_dump($result->field_count);";
             $fieldnames = [];
-            if ($result->field_count > 0)
-            {
-                #echo "<thread>";
-                #echo "<tr>";
 
-
-                $th = "<tr>";
-                $count =0;
-                while($field = $result->fetch_field() )
-                {
-                    $count++;
-                    $fieldnames[] = $field->name;
-
-                    if ($count < 6 )
-                    {
-                        #echo "$field->name \r\n";
-                        $th =  $th . "<th>" . $field->name . "</th>";
-                        #echo "$th";
-                    }
-
-                }
-
-                $th = $th . "</tr>";
-                echo "\r\n<thead>" . $th . "</thead>\r\r\n";
-                echo "<tfoot>" . $th . "</tfoot>\r\r\n";
-            }
-
+            $fieldnames =  tableHeaderFooter($result);
             //echo (var_dump($result));
 
             echo "<tbody>";
@@ -198,8 +173,8 @@ echo "Connection info: <b>" .$conn->host_info ."</b><br>";
     <!-- Contact List  -->
 
 
-
-    <div id = closesql class="pageblock" style="margin-top: 10px; display:none;">
+    <!--id = closesql -->
+    <div id=closesql class="pageblock" style="margin-top: 10px; display:none;">
         <H3>Closing SQL connection</H3>
         <?php
         //$sql = "ROLLBACK";

@@ -116,8 +116,7 @@
                                 //alert(id + " " +rowId);
                                 //alert(id + " " +rowId);
                                 $(rowId).toggle();
-
-
+                                
                             }
 
 
@@ -148,7 +147,6 @@
                                 #echo "<thread>";
                                 #echo "<tr>";
 
-
                                 $th = "<tr>";
                                 $count =0;
                                 while($field = $result->fetch_field() )
@@ -162,7 +160,6 @@
                                         $th =  $th . "<th>" . $field->name . "</th>";
                                         #echo "$th";
                                     }
-
                                 }
 
                                 $th = $th . "</tr>";
